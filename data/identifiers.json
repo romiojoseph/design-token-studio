@@ -1,0 +1,4498 @@
+{
+    "components": [
+        {
+            "id": "button",
+            "name": "Button",
+            "short": "btn",
+            "category": "interactive"
+        },
+        {
+            "id": "input",
+            "name": "Input",
+            "short": "input",
+            "category": "form"
+        },
+        {
+            "id": "card",
+            "name": "Card",
+            "short": "card",
+            "category": "container"
+        },
+        {
+            "id": "modal",
+            "name": "Modal",
+            "short": "modal",
+            "category": "overlay"
+        },
+        {
+            "id": "dropdown",
+            "name": "Dropdown",
+            "short": "dropdown",
+            "category": "interactive"
+        },
+        {
+            "id": "nav",
+            "name": "Navigation",
+            "short": "nav",
+            "category": "navigation"
+        },
+        {
+            "id": "menu",
+            "name": "Menu",
+            "short": "menu",
+            "category": "navigation"
+        },
+        {
+            "id": "tab",
+            "name": "Tab",
+            "short": "tab",
+            "category": "navigation"
+        },
+        {
+            "id": "link",
+            "name": "Link",
+            "short": "link",
+            "category": "navigation"
+        },
+        {
+            "id": "icon",
+            "name": "Icon",
+            "short": "icon",
+            "category": "media"
+        },
+        {
+            "id": "image",
+            "name": "Image",
+            "short": "img",
+            "category": "media"
+        },
+        {
+            "id": "avatar",
+            "name": "Avatar",
+            "short": "avatar",
+            "category": "media"
+        },
+        {
+            "id": "badge",
+            "name": "Badge",
+            "short": "badge",
+            "category": "feedback"
+        },
+        {
+            "id": "alert",
+            "name": "Alert",
+            "short": "alert",
+            "category": "feedback"
+        },
+        {
+            "id": "toast",
+            "name": "Toast",
+            "short": "toast",
+            "category": "feedback"
+        },
+        {
+            "id": "tooltip",
+            "name": "Tooltip",
+            "short": "tooltip",
+            "category": "feedback"
+        },
+        {
+            "id": "form",
+            "name": "Form",
+            "short": "form",
+            "category": "form"
+        },
+        {
+            "id": "label",
+            "name": "Label",
+            "short": "label",
+            "category": "form"
+        },
+        {
+            "id": "checkbox",
+            "name": "Checkbox",
+            "short": "checkbox",
+            "category": "form"
+        },
+        {
+            "id": "radio",
+            "name": "Radio",
+            "short": "radio",
+            "category": "form"
+        },
+        {
+            "id": "select",
+            "name": "Select",
+            "short": "select",
+            "category": "form"
+        },
+        {
+            "id": "textarea",
+            "name": "Textarea",
+            "short": "textarea",
+            "category": "form"
+        },
+        {
+            "id": "slider",
+            "name": "Slider",
+            "short": "slider",
+            "category": "form"
+        },
+        {
+            "id": "switch",
+            "name": "Switch",
+            "short": "switch",
+            "category": "form"
+        },
+        {
+            "id": "toggle",
+            "name": "Toggle",
+            "short": "toggle",
+            "category": "form"
+        },
+        {
+            "id": "heading",
+            "name": "Heading",
+            "short": "heading",
+            "category": "typography"
+        },
+        {
+            "id": "text",
+            "name": "Text",
+            "short": "text",
+            "category": "typography"
+        },
+        {
+            "id": "paragraph",
+            "name": "Paragraph",
+            "short": "para",
+            "category": "typography"
+        },
+        {
+            "id": "list",
+            "name": "List",
+            "short": "list",
+            "category": "data"
+        },
+        {
+            "id": "table",
+            "name": "Table",
+            "short": "table",
+            "category": "data"
+        },
+        {
+            "id": "grid",
+            "name": "Grid",
+            "short": "grid",
+            "category": "layout"
+        },
+        {
+            "id": "container",
+            "name": "Container",
+            "short": "container",
+            "category": "layout"
+        },
+        {
+            "id": "section",
+            "name": "Section",
+            "short": "section",
+            "category": "layout"
+        },
+        {
+            "id": "sidebar",
+            "name": "Sidebar",
+            "short": "sidebar",
+            "category": "layout"
+        },
+        {
+            "id": "divider",
+            "name": "Divider",
+            "short": "divider",
+            "category": "layout"
+        },
+        {
+            "id": "accordion",
+            "name": "Accordion",
+            "short": "accordion",
+            "category": "interactive"
+        },
+        {
+            "id": "drawer",
+            "name": "Drawer",
+            "short": "drawer",
+            "category": "overlay"
+        },
+        {
+            "id": "dialog",
+            "name": "Dialog",
+            "short": "dialog",
+            "category": "overlay"
+        },
+        {
+            "id": "popover",
+            "name": "Popover",
+            "short": "popover",
+            "category": "overlay"
+        },
+        {
+            "id": "breadcrumb",
+            "name": "Breadcrumb",
+            "short": "breadcrumb",
+            "category": "navigation"
+        },
+        {
+            "id": "pagination",
+            "name": "Pagination",
+            "short": "pagination",
+            "category": "navigation"
+        },
+        {
+            "id": "stepper",
+            "name": "Stepper",
+            "short": "stepper",
+            "category": "navigation"
+        },
+        {
+            "id": "progress",
+            "name": "Progress Bar",
+            "short": "progress",
+            "category": "feedback"
+        },
+        {
+            "id": "spinner",
+            "name": "Spinner",
+            "short": "spinner",
+            "category": "feedback"
+        },
+        {
+            "id": "skeleton",
+            "name": "Skeleton",
+            "short": "skeleton",
+            "category": "feedback"
+        },
+        {
+            "id": "chip",
+            "name": "Chip",
+            "short": "chip",
+            "category": "data"
+        },
+        {
+            "id": "tag",
+            "name": "Tag",
+            "short": "tag",
+            "category": "data"
+        },
+        {
+            "id": "timeline",
+            "name": "Timeline",
+            "short": "timeline",
+            "category": "data"
+        },
+        {
+            "id": "carousel",
+            "name": "Carousel",
+            "short": "carousel",
+            "category": "interactive"
+        },
+        {
+            "id": "gallery",
+            "name": "Gallery",
+            "short": "gallery",
+            "category": "media"
+        },
+        {
+            "id": "video",
+            "name": "Video",
+            "short": "video",
+            "category": "media"
+        },
+        {
+            "id": "thumbnail",
+            "name": "Thumbnail",
+            "short": "thumb",
+            "category": "media"
+        },
+        {
+            "id": "banner",
+            "name": "Banner",
+            "short": "banner",
+            "category": "layout"
+        },
+        {
+            "id": "panel",
+            "name": "Panel",
+            "short": "panel",
+            "category": "layout"
+        },
+        {
+            "id": "toolbar",
+            "name": "Toolbar",
+            "short": "toolbar",
+            "category": "layout"
+        },
+        {
+            "id": "statusbar",
+            "name": "Status Bar",
+            "short": "statusbar",
+            "category": "layout"
+        },
+        {
+            "id": "overlay",
+            "name": "Overlay",
+            "short": "overlay",
+            "category": "overlay"
+        },
+        {
+            "id": "backdrop",
+            "name": "Backdrop",
+            "short": "backdrop",
+            "category": "overlay"
+        },
+        {
+            "id": "snackbar",
+            "name": "Snackbar",
+            "short": "snackbar",
+            "category": "feedback"
+        },
+        {
+            "id": "callout",
+            "name": "Callout",
+            "short": "callout",
+            "category": "feedback"
+        },
+        {
+            "id": "datepicker",
+            "name": "Date Picker",
+            "short": "datepicker",
+            "category": "form"
+        },
+        {
+            "id": "colorpicker",
+            "name": "Color Picker",
+            "short": "colorpicker",
+            "category": "form"
+        },
+        {
+            "id": "rating",
+            "name": "Rating",
+            "short": "rating",
+            "category": "form"
+        },
+        {
+            "id": "counter",
+            "name": "Counter",
+            "short": "counter",
+            "category": "interactive"
+        },
+        {
+            "id": "scroll",
+            "name": "Scroll Area",
+            "short": "scroll",
+            "category": "layout"
+        },
+        {
+            "id": "price",
+            "name": "Price",
+            "short": "price",
+            "category": "data"
+        },
+        {
+            "id": "stat",
+            "name": "Stat",
+            "short": "stat",
+            "category": "data"
+        },
+        {
+            "id": "metric",
+            "name": "Metric",
+            "short": "metric",
+            "category": "data"
+        },
+        {
+            "id": "chart",
+            "name": "Chart",
+            "short": "chart",
+            "category": "data"
+        },
+        {
+            "id": "graph",
+            "name": "Graph",
+            "short": "graph",
+            "category": "data"
+        },
+        {
+            "id": "map",
+            "name": "Map",
+            "short": "map",
+            "category": "interactive"
+        },
+        {
+            "id": "calendar",
+            "name": "Calendar",
+            "short": "calendar",
+            "category": "interactive"
+        },
+        {
+            "id": "editor",
+            "name": "Editor",
+            "short": "editor",
+            "category": "form"
+        },
+        {
+            "id": "preview",
+            "name": "Preview",
+            "short": "preview",
+            "category": "media"
+        },
+        {
+            "id": "player",
+            "name": "Player",
+            "short": "player",
+            "category": "media"
+        },
+        {
+            "id": "uploader",
+            "name": "Uploader",
+            "short": "uploader",
+            "category": "form"
+        },
+        {
+            "id": "dropzone",
+            "name": "Dropzone",
+            "short": "dropzone",
+            "category": "form"
+        },
+        {
+            "id": "searchbar",
+            "name": "Search Bar",
+            "short": "searchbar",
+            "category": "form"
+        },
+        {
+            "id": "combobox",
+            "name": "Combobox",
+            "short": "combobox",
+            "category": "form"
+        },
+        {
+            "id": "multiselect",
+            "name": "Multi Select",
+            "short": "multiselect",
+            "category": "form"
+        },
+        {
+            "id": "file",
+            "name": "File",
+            "short": "file",
+            "category": "data"
+        },
+        {
+            "id": "folder",
+            "name": "Folder",
+            "short": "folder",
+            "category": "data"
+        },
+        {
+            "id": "tree",
+            "name": "Tree View",
+            "short": "tree",
+            "category": "data"
+        },
+        {
+            "id": "row",
+            "name": "Row",
+            "short": "row",
+            "category": "layout"
+        },
+        {
+            "id": "column",
+            "name": "Column",
+            "short": "col",
+            "category": "layout"
+        },
+        {
+            "id": "stack",
+            "name": "Stack",
+            "short": "stack",
+            "category": "layout"
+        },
+        {
+            "id": "flex",
+            "name": "Flex",
+            "short": "flex",
+            "category": "layout"
+        },
+        {
+            "id": "spacer",
+            "name": "Spacer",
+            "short": "spacer",
+            "category": "layout"
+        },
+        {
+            "id": "separator",
+            "name": "Separator",
+            "short": "separator",
+            "category": "layout"
+        },
+        {
+            "id": "box",
+            "name": "Box",
+            "short": "box",
+            "category": "layout"
+        },
+        {
+            "id": "author",
+            "name": "Author",
+            "short": "author",
+            "category": "data"
+        },
+        {
+            "id": "meta",
+            "name": "Metadata",
+            "short": "meta",
+            "category": "data"
+        },
+        {
+            "id": "caption",
+            "name": "Caption",
+            "short": "caption",
+            "category": "typography"
+        },
+        {
+            "id": "title",
+            "name": "Title",
+            "short": "title",
+            "category": "typography"
+        },
+        {
+            "id": "subtitle",
+            "name": "Subtitle",
+            "short": "subtitle",
+            "category": "typography"
+        },
+        {
+            "id": "description",
+            "name": "Description",
+            "short": "desc",
+            "category": "typography"
+        },
+        {
+            "id": "code",
+            "name": "Code Block",
+            "short": "code",
+            "category": "typography"
+        },
+        {
+            "id": "quote",
+            "name": "Quote",
+            "short": "quote",
+            "category": "typography"
+        },
+        {
+            "id": "highlight",
+            "name": "Highlight",
+            "short": "highlight",
+            "category": "typography"
+        },
+        {
+            "id": "kbd",
+            "name": "Keyboard",
+            "short": "kbd",
+            "category": "typography"
+        },
+        {
+            "id": "logo",
+            "name": "Logo",
+            "short": "logo",
+            "category": "media"
+        },
+        {
+            "id": "brand",
+            "name": "Brand",
+            "short": "brand",
+            "category": "media"
+        },
+        {
+            "id": "loader",
+            "name": "Loader",
+            "short": "loader",
+            "category": "feedback"
+        },
+        {
+            "id": "placeholder",
+            "name": "Placeholder",
+            "short": "placeholder",
+            "category": "feedback"
+        },
+        {
+            "id": "empty",
+            "name": "Empty State",
+            "short": "empty",
+            "category": "feedback"
+        },
+        {
+            "id": "404",
+            "name": "404 Page",
+            "short": "404",
+            "category": "feedback"
+        },
+        {
+            "id": "splash",
+            "name": "Splash Screen",
+            "short": "splash",
+            "category": "overlay"
+        },
+        {
+            "id": "controller",
+            "name": "Controller",
+            "short": "controller",
+            "category": "logic"
+        },
+        {
+            "id": "service",
+            "name": "Service",
+            "short": "service",
+            "category": "logic"
+        },
+        {
+            "id": "provider",
+            "name": "Provider",
+            "short": "provider",
+            "category": "logic"
+        },
+        {
+            "id": "handler",
+            "name": "Handler",
+            "short": "handler",
+            "category": "logic"
+        },
+        {
+            "id": "helper",
+            "name": "Helper",
+            "short": "helper",
+            "category": "logic"
+        },
+        {
+            "id": "utility",
+            "name": "Utility",
+            "short": "util",
+            "category": "logic"
+        },
+        {
+            "id": "hook",
+            "name": "Hook",
+            "short": "hook",
+            "category": "logic"
+        },
+        {
+            "id": "middleware",
+            "name": "Middleware",
+            "short": "middleware",
+            "category": "logic"
+        },
+        {
+            "id": "validator",
+            "name": "Validator",
+            "short": "validator",
+            "category": "logic"
+        },
+        {
+            "id": "formatter",
+            "name": "Formatter",
+            "short": "formatter",
+            "category": "logic"
+        },
+        {
+            "id": "parser",
+            "name": "Parser",
+            "short": "parser",
+            "category": "logic"
+        },
+        {
+            "id": "adapter",
+            "name": "Adapter",
+            "short": "adapter",
+            "category": "logic"
+        },
+        {
+            "id": "transformer",
+            "name": "Transformer",
+            "short": "transformer",
+            "category": "logic"
+        },
+        {
+            "id": "store",
+            "name": "Store",
+            "short": "store",
+            "category": "data"
+        },
+        {
+            "id": "context",
+            "name": "Context",
+            "short": "context",
+            "category": "logic"
+        },
+        {
+            "id": "config",
+            "name": "Configuration",
+            "short": "config",
+            "category": "logic"
+        },
+        {
+            "id": "constant",
+            "name": "Constant",
+            "short": "const",
+            "category": "data"
+        },
+        {
+            "id": "enum",
+            "name": "Enum",
+            "short": "enum",
+            "category": "data"
+        },
+        {
+            "id": "type",
+            "name": "Type",
+            "short": "type",
+            "category": "data"
+        },
+        {
+            "id": "interface",
+            "name": "Interface",
+            "short": "interface",
+            "category": "data"
+        },
+        {
+            "id": "model",
+            "name": "Model",
+            "short": "model",
+            "category": "data"
+        },
+        {
+            "id": "schema",
+            "name": "Schema",
+            "short": "schema",
+            "category": "data"
+        },
+        {
+            "id": "entity",
+            "name": "Entity",
+            "short": "entity",
+            "category": "data"
+        },
+        {
+            "id": "dto",
+            "name": "Data Transfer Object",
+            "short": "dto",
+            "category": "data"
+        },
+        {
+            "id": "query",
+            "name": "Query",
+            "short": "query",
+            "category": "data"
+        },
+        {
+            "id": "mutation",
+            "name": "Mutation",
+            "short": "mutation",
+            "category": "data"
+        },
+        {
+            "id": "action",
+            "name": "Action",
+            "short": "action",
+            "category": "logic"
+        },
+        {
+            "id": "reducer",
+            "name": "Reducer",
+            "short": "reducer",
+            "category": "logic"
+        },
+        {
+            "id": "selector",
+            "name": "Selector",
+            "short": "selector",
+            "category": "logic"
+        },
+        {
+            "id": "route",
+            "name": "Route",
+            "short": "route",
+            "category": "navigation"
+        },
+        {
+            "id": "page",
+            "name": "Page",
+            "short": "page",
+            "category": "layout"
+        },
+        {
+            "id": "layout",
+            "name": "Layout",
+            "short": "layout",
+            "category": "layout"
+        },
+        {
+            "id": "template",
+            "name": "Template",
+            "short": "template",
+            "category": "layout"
+        },
+        {
+            "id": "view",
+            "name": "View",
+            "short": "view",
+            "category": "layout"
+        },
+        {
+            "id": "screen",
+            "name": "Screen",
+            "short": "screen",
+            "category": "layout"
+        },
+        {
+            "id": "widget",
+            "name": "Widget",
+            "short": "widget",
+            "category": "interactive"
+        },
+        {
+            "id": "module",
+            "name": "Module",
+            "short": "module",
+            "category": "logic"
+        },
+        {
+            "id": "plugin",
+            "name": "Plugin",
+            "short": "plugin",
+            "category": "logic"
+        },
+        {
+            "id": "extension",
+            "name": "Extension",
+            "short": "ext",
+            "category": "logic"
+        },
+        {
+            "id": "decorator",
+            "name": "Decorator",
+            "short": "decorator",
+            "category": "logic"
+        },
+        {
+            "id": "mixin",
+            "name": "Mixin",
+            "short": "mixin",
+            "category": "logic"
+        },
+        {
+            "id": "factory",
+            "name": "Factory",
+            "short": "factory",
+            "category": "logic"
+        },
+        {
+            "id": "builder",
+            "name": "Builder",
+            "short": "builder",
+            "category": "logic"
+        },
+        {
+            "id": "manager",
+            "name": "Manager",
+            "short": "manager",
+            "category": "logic"
+        },
+        {
+            "id": "client",
+            "name": "Client",
+            "short": "client",
+            "category": "logic"
+        },
+        {
+            "id": "api",
+            "name": "API",
+            "short": "api",
+            "category": "logic"
+        },
+        {
+            "id": "endpoint",
+            "name": "Endpoint",
+            "short": "endpoint",
+            "category": "logic"
+        },
+        {
+            "id": "request",
+            "name": "Request",
+            "short": "req",
+            "category": "data"
+        },
+        {
+            "id": "response",
+            "name": "Response",
+            "short": "res",
+            "category": "data"
+        },
+        {
+            "id": "payload",
+            "name": "Payload",
+            "short": "payload",
+            "category": "data"
+        },
+        {
+            "id": "params",
+            "name": "Parameters",
+            "short": "params",
+            "category": "data"
+        },
+        {
+            "id": "props",
+            "name": "Properties",
+            "short": "props",
+            "category": "data"
+        },
+        {
+            "id": "state",
+            "name": "State",
+            "short": "state",
+            "category": "data"
+        },
+        {
+            "id": "event",
+            "name": "Event",
+            "short": "event",
+            "category": "logic"
+        },
+        {
+            "id": "listener",
+            "name": "Listener",
+            "short": "listener",
+            "category": "logic"
+        },
+        {
+            "id": "emitter",
+            "name": "Emitter",
+            "short": "emitter",
+            "category": "logic"
+        },
+        {
+            "id": "observer",
+            "name": "Observer",
+            "short": "observer",
+            "category": "logic"
+        },
+        {
+            "id": "subscriber",
+            "name": "Subscriber",
+            "short": "subscriber",
+            "category": "logic"
+        },
+        {
+            "id": "publisher",
+            "name": "Publisher",
+            "short": "publisher",
+            "category": "logic"
+        },
+        {
+            "id": "stream",
+            "name": "Stream",
+            "short": "stream",
+            "category": "data"
+        },
+        {
+            "id": "cache",
+            "name": "Cache",
+            "short": "cache",
+            "category": "data"
+        },
+        {
+            "id": "queue",
+            "name": "Queue",
+            "short": "queue",
+            "category": "data"
+        },
+        {
+            "id": "pool",
+            "name": "Pool",
+            "short": "pool",
+            "category": "data"
+        },
+        {
+            "id": "buffer",
+            "name": "Buffer",
+            "short": "buffer",
+            "category": "data"
+        },
+        {
+            "id": "collection",
+            "name": "Collection",
+            "short": "collection",
+            "category": "data"
+        },
+        {
+            "id": "repository",
+            "name": "Repository",
+            "short": "repo",
+            "category": "data"
+        },
+        {
+            "id": "database",
+            "name": "Database",
+            "short": "db",
+            "category": "data"
+        },
+        {
+            "id": "connection",
+            "name": "Connection",
+            "short": "conn",
+            "category": "logic"
+        },
+        {
+            "id": "session",
+            "name": "Session",
+            "short": "session",
+            "category": "data"
+        },
+        {
+            "id": "token",
+            "name": "Token",
+            "short": "token",
+            "category": "data"
+        },
+        {
+            "id": "credential",
+            "name": "Credential",
+            "short": "credential",
+            "category": "data"
+        },
+        {
+            "id": "permission",
+            "name": "Permission",
+            "short": "permission",
+            "category": "data"
+        },
+        {
+            "id": "role",
+            "name": "Role",
+            "short": "role",
+            "category": "data"
+        },
+        {
+            "id": "guard",
+            "name": "Guard",
+            "short": "guard",
+            "category": "logic"
+        },
+        {
+            "id": "filter",
+            "name": "Filter",
+            "short": "filter",
+            "category": "logic"
+        },
+        {
+            "id": "interceptor",
+            "name": "Interceptor",
+            "short": "interceptor",
+            "category": "logic"
+        },
+        {
+            "id": "pipe",
+            "name": "Pipe",
+            "short": "pipe",
+            "category": "logic"
+        },
+        {
+            "id": "wrapper",
+            "name": "Wrapper",
+            "short": "wrapper",
+            "category": "layout"
+        },
+        {
+            "id": "hoc",
+            "name": "Higher Order Component",
+            "short": "hoc",
+            "category": "logic"
+        },
+        {
+            "id": "scrollbar",
+            "name": "Scrollbar",
+            "short": "scrollbar",
+            "category": "interactive"
+        },
+        {
+            "id": "resizable",
+            "name": "Resizable Panel",
+            "short": "resizable",
+            "category": "interactive"
+        },
+        {
+            "id": "splitter",
+            "name": "Splitter / Split View",
+            "short": "splitter",
+            "category": "layout"
+        },
+        {
+            "id": "tour",
+            "name": "Tour / Guide",
+            "short": "tour",
+            "category": "feedback"
+        },
+        {
+            "id": "heatmap",
+            "name": "Heatmap",
+            "short": "heatmap",
+            "category": "data"
+        },
+        {
+            "id": "treemap",
+            "name": "Treemap",
+            "short": "treemap",
+            "category": "data"
+        },
+        {
+            "id": "density",
+            "name": "Density Chart",
+            "short": "density",
+            "category": "data"
+        },
+        {
+            "id": "network",
+            "name": "Network Graph",
+            "short": "network",
+            "category": "data"
+        },
+        {
+            "id": "wordcloud",
+            "name": "Word Cloud",
+            "short": "wordcloud",
+            "category": "data"
+        },
+        {
+            "id": "brush",
+            "name": "Brush (for chart interaction)",
+            "short": "brush",
+            "category": "interactive"
+        },
+        {
+            "id": "zoom",
+            "name": "Zoom Control",
+            "short": "zoom",
+            "category": "interactive"
+        },
+        {
+            "id": "timepicker",
+            "name": "Time Picker",
+            "short": "timepicker",
+            "category": "form"
+        },
+        {
+            "id": "daterange",
+            "name": "Date Range Picker",
+            "short": "daterange",
+            "category": "form"
+        },
+        {
+            "id": "password",
+            "name": "Password Input",
+            "short": "password",
+            "category": "form"
+        },
+        {
+            "id": "otp",
+            "name": "OTP Input",
+            "short": "otp",
+            "category": "form"
+        },
+        {
+            "id": "pin",
+            "name": "Pin Input",
+            "short": "pin",
+            "category": "form"
+        },
+        {
+            "id": "mention",
+            "name": "Mention / Autocomplete for Users",
+            "short": "mention",
+            "category": "form"
+        },
+        {
+            "id": "segmented",
+            "name": "Segmented Control",
+            "short": "segmented",
+            "category": "form"
+        }
+    ],
+    "contexts": [
+        {
+            "id": "header",
+            "name": "Header",
+            "short": "header"
+        },
+        {
+            "id": "footer",
+            "name": "Footer",
+            "short": "footer"
+        },
+        {
+            "id": "hero",
+            "name": "Hero",
+            "short": "hero"
+        },
+        {
+            "id": "navbar",
+            "name": "Navbar",
+            "short": "navbar"
+        },
+        {
+            "id": "sidebar",
+            "name": "Sidebar",
+            "short": "sidebar"
+        },
+        {
+            "id": "main",
+            "name": "Main Content",
+            "short": "main"
+        },
+        {
+            "id": "content",
+            "name": "Content Area",
+            "short": "content"
+        },
+        {
+            "id": "auth",
+            "name": "Auth/Login",
+            "short": "auth"
+        },
+        {
+            "id": "dashboard",
+            "name": "Dashboard",
+            "short": "dashboard"
+        },
+        {
+            "id": "profile",
+            "name": "Profile",
+            "short": "profile"
+        },
+        {
+            "id": "settings",
+            "name": "Settings",
+            "short": "settings"
+        },
+        {
+            "id": "checkout",
+            "name": "Checkout",
+            "short": "checkout"
+        },
+        {
+            "id": "cart",
+            "name": "Cart",
+            "short": "cart"
+        },
+        {
+            "id": "product",
+            "name": "Product",
+            "short": "product"
+        },
+        {
+            "id": "search",
+            "name": "Search",
+            "short": "search"
+        },
+        {
+            "id": "filter",
+            "name": "Filter",
+            "short": "filter"
+        },
+        {
+            "id": "notification",
+            "name": "Notification",
+            "short": "notif"
+        },
+        {
+            "id": "comment",
+            "name": "Comment",
+            "short": "comment"
+        },
+        {
+            "id": "post",
+            "name": "Post",
+            "short": "post"
+        },
+        {
+            "id": "article",
+            "name": "Article",
+            "short": "article"
+        },
+        {
+            "id": "pricing",
+            "name": "Pricing",
+            "short": "pricing"
+        },
+        {
+            "id": "testimonial",
+            "name": "Testimonial",
+            "short": "testimonial"
+        },
+        {
+            "id": "feature",
+            "name": "Feature",
+            "short": "feature"
+        },
+        {
+            "id": "cta",
+            "name": "Call to Action",
+            "short": "cta"
+        },
+        {
+            "id": "feed",
+            "name": "Feed",
+            "short": "feed"
+        },
+        {
+            "id": "timeline",
+            "name": "Timeline",
+            "short": "timeline"
+        },
+        {
+            "id": "gallery",
+            "name": "Gallery",
+            "short": "gallery"
+        },
+        {
+            "id": "wizard",
+            "name": "Wizard/Stepper",
+            "short": "wizard"
+        },
+        {
+            "id": "onboarding",
+            "name": "Onboarding",
+            "short": "onboarding"
+        },
+        {
+            "id": "error",
+            "name": "Error Page",
+            "short": "error"
+        },
+        {
+            "id": "landing",
+            "name": "Landing Page",
+            "short": "landing"
+        },
+        {
+            "id": "admin",
+            "name": "Admin",
+            "short": "admin"
+        },
+        {
+            "id": "user",
+            "name": "User",
+            "short": "user"
+        },
+        {
+            "id": "team",
+            "name": "Team",
+            "short": "team"
+        },
+        {
+            "id": "stats",
+            "name": "Statistics",
+            "short": "stats"
+        },
+        {
+            "id": "analytics",
+            "name": "Analytics",
+            "short": "analytics"
+        },
+        {
+            "id": "billing",
+            "name": "Billing",
+            "short": "billing"
+        },
+        {
+            "id": "invoice",
+            "name": "Invoice",
+            "short": "invoice"
+        },
+        {
+            "id": "subscription",
+            "name": "Subscription",
+            "short": "subscription"
+        },
+        {
+            "id": "category",
+            "name": "Category",
+            "short": "category"
+        },
+        {
+            "id": "message",
+            "name": "Message",
+            "short": "message"
+        },
+        {
+            "id": "chat",
+            "name": "Chat",
+            "short": "chat"
+        },
+        {
+            "id": "inbox",
+            "name": "Inbox",
+            "short": "inbox"
+        },
+        {
+            "id": "conversation",
+            "name": "Conversation",
+            "short": "conversation"
+        },
+        {
+            "id": "thread",
+            "name": "Thread",
+            "short": "thread"
+        },
+        {
+            "id": "reply",
+            "name": "Reply",
+            "short": "reply"
+        },
+        {
+            "id": "contact",
+            "name": "Contact",
+            "short": "contact"
+        },
+        {
+            "id": "account",
+            "name": "Account",
+            "short": "account"
+        },
+        {
+            "id": "activity",
+            "name": "Activity",
+            "short": "activity"
+        },
+        {
+            "id": "history",
+            "name": "History",
+            "short": "history"
+        },
+        {
+            "id": "recent",
+            "name": "Recent",
+            "short": "recent"
+        },
+        {
+            "id": "favorite",
+            "name": "Favorite",
+            "short": "favorite"
+        },
+        {
+            "id": "bookmark",
+            "name": "Bookmark",
+            "short": "bookmark"
+        },
+        {
+            "id": "share",
+            "name": "Share",
+            "short": "share"
+        },
+        {
+            "id": "download",
+            "name": "Download",
+            "short": "download"
+        },
+        {
+            "id": "upload",
+            "name": "Upload",
+            "short": "upload"
+        },
+        {
+            "id": "export",
+            "name": "Export",
+            "short": "export"
+        },
+        {
+            "id": "import",
+            "name": "Import",
+            "short": "import"
+        },
+        {
+            "id": "preview-mode",
+            "name": "Preview Mode",
+            "short": "preview"
+        },
+        {
+            "id": "edit-mode",
+            "name": "Edit Mode",
+            "short": "edit"
+        },
+        {
+            "id": "blog",
+            "name": "Blog",
+            "short": "blog"
+        },
+        {
+            "id": "news",
+            "name": "News",
+            "short": "news"
+        },
+        {
+            "id": "event",
+            "name": "Event",
+            "short": "event"
+        },
+        {
+            "id": "calendar-view",
+            "name": "Calendar View",
+            "short": "calendar"
+        },
+        {
+            "id": "kanban",
+            "name": "Kanban Board",
+            "short": "kanban"
+        },
+        {
+            "id": "project",
+            "name": "Project",
+            "short": "project"
+        },
+        {
+            "id": "task",
+            "name": "Task",
+            "short": "task"
+        },
+        {
+            "id": "todo",
+            "name": "Todo",
+            "short": "todo"
+        },
+        {
+            "id": "api-endpoint",
+            "name": "API Endpoint",
+            "short": "api"
+        },
+        {
+            "id": "webhook",
+            "name": "Webhook",
+            "short": "webhook"
+        },
+        {
+            "id": "socket",
+            "name": "Socket",
+            "short": "socket"
+        },
+        {
+            "id": "worker",
+            "name": "Worker",
+            "short": "worker"
+        },
+        {
+            "id": "job",
+            "name": "Job",
+            "short": "job"
+        },
+        {
+            "id": "cron",
+            "name": "Cron Job",
+            "short": "cron"
+        },
+        {
+            "id": "scheduler",
+            "name": "Scheduler",
+            "short": "scheduler"
+        },
+        {
+            "id": "logger",
+            "name": "Logger",
+            "short": "logger"
+        },
+        {
+            "id": "monitor",
+            "name": "Monitor",
+            "short": "monitor"
+        },
+        {
+            "id": "tracker",
+            "name": "Tracker",
+            "short": "tracker"
+        },
+        {
+            "id": "metric-data",
+            "name": "Metric Data",
+            "short": "metric"
+        },
+        {
+            "id": "test",
+            "name": "Test",
+            "short": "test"
+        },
+        {
+            "id": "mock",
+            "name": "Mock",
+            "short": "mock"
+        },
+        {
+            "id": "stub",
+            "name": "Stub",
+            "short": "stub"
+        },
+        {
+            "id": "fixture",
+            "name": "Fixture",
+            "short": "fixture"
+        },
+        {
+            "id": "seed",
+            "name": "Seed Data",
+            "short": "seed"
+        },
+        {
+            "id": "migration",
+            "name": "Migration",
+            "short": "migration"
+        },
+        {
+            "id": "auth-success",
+            "name": "Auth Success / Post-Login",
+            "short": "auth-success"
+        },
+        {
+            "id": "auth-failure",
+            "name": "Auth Failure / Login Error",
+            "short": "auth-failure"
+        },
+        {
+            "id": "demo-mode",
+            "name": "Demo / Trial Mode",
+            "short": "demo"
+        },
+        {
+            "id": "maintenance",
+            "name": "Maintenance Mode",
+            "short": "maintenance"
+        },
+        {
+            "id": "offline",
+            "name": "Offline Mode",
+            "short": "offline"
+        },
+        {
+            "id": "syncing",
+            "name": "Syncing / Synchronization",
+            "short": "syncing"
+        },
+        {
+            "id": "loading-data",
+            "name": "Loading Data State",
+            "short": "loading"
+        },
+        {
+            "id": "no-results",
+            "name": "No Results / Empty Search",
+            "short": "no-results"
+        },
+        {
+            "id": "tour-step",
+            "name": "Product Tour Step",
+            "short": "tour-step"
+        },
+        {
+            "id": "code-viewer",
+            "name": "Code Viewer / File Preview",
+            "short": "code-viewer"
+        },
+        {
+            "id": "diff-viewer",
+            "name": "Diff Viewer / Code Comparison",
+            "short": "diff"
+        },
+        {
+            "id": "report-builder",
+            "name": "Report Builder",
+            "short": "report-builder"
+        },
+        {
+            "id": "data-export",
+            "name": "Data Export / Download",
+            "short": "export"
+        },
+        {
+            "id": "review",
+            "name": "Review / Approval",
+            "short": "review"
+        },
+        {
+            "id": "onboarding-step",
+            "name": "Onboarding Step",
+            "short": "onboarding-step"
+        },
+        {
+            "id": "license",
+            "name": "License / Subscription Management",
+            "short": "license"
+        },
+        {
+            "id": "integration",
+            "name": "Third-Party Integration Setup",
+            "short": "integration"
+        },
+        {
+            "id": "data-migration",
+            "name": "Data Migration / Import",
+            "short": "migration"
+        }
+    ],
+    "modifiers": [
+        {
+            "id": "primary",
+            "name": "Primary",
+            "short": "primary",
+            "category": "variant"
+        },
+        {
+            "id": "secondary",
+            "name": "Secondary",
+            "short": "secondary",
+            "category": "variant"
+        },
+        {
+            "id": "tertiary",
+            "name": "Tertiary",
+            "short": "tertiary",
+            "category": "variant"
+        },
+        {
+            "id": "ghost",
+            "name": "Ghost",
+            "short": "ghost",
+            "category": "variant"
+        },
+        {
+            "id": "outline",
+            "name": "Outline",
+            "short": "outline",
+            "category": "variant"
+        },
+        {
+            "id": "xs",
+            "name": "Extra Small",
+            "short": "xs",
+            "category": "size"
+        },
+        {
+            "id": "sm",
+            "name": "Small",
+            "short": "sm",
+            "category": "size"
+        },
+        {
+            "id": "md",
+            "name": "Medium",
+            "short": "md",
+            "category": "size"
+        },
+        {
+            "id": "lg",
+            "name": "Large",
+            "short": "lg",
+            "category": "size"
+        },
+        {
+            "id": "xl",
+            "name": "Extra Large",
+            "short": "xl",
+            "category": "size"
+        },
+        {
+            "id": "active",
+            "name": "Active",
+            "short": "active",
+            "category": "state"
+        },
+        {
+            "id": "disabled",
+            "name": "Disabled",
+            "short": "disabled",
+            "category": "state"
+        },
+        {
+            "id": "loading",
+            "name": "Loading",
+            "short": "loading",
+            "category": "state"
+        },
+        {
+            "id": "error",
+            "name": "Error",
+            "short": "error",
+            "category": "state"
+        },
+        {
+            "id": "success",
+            "name": "Success",
+            "short": "success",
+            "category": "state"
+        },
+        {
+            "id": "warning",
+            "name": "Warning",
+            "short": "warning",
+            "category": "state"
+        },
+        {
+            "id": "hover",
+            "name": "Hover",
+            "short": "hover",
+            "category": "state"
+        },
+        {
+            "id": "focus",
+            "name": "Focus",
+            "short": "focus",
+            "category": "state"
+        },
+        {
+            "id": "open",
+            "name": "Open",
+            "short": "open",
+            "category": "state"
+        },
+        {
+            "id": "closed",
+            "name": "Closed",
+            "short": "closed",
+            "category": "state"
+        },
+        {
+            "id": "expanded",
+            "name": "Expanded",
+            "short": "expanded",
+            "category": "state"
+        },
+        {
+            "id": "collapsed",
+            "name": "Collapsed",
+            "short": "collapsed",
+            "category": "state"
+        },
+        {
+            "id": "selected",
+            "name": "Selected",
+            "short": "selected",
+            "category": "state"
+        },
+        {
+            "id": "muted",
+            "name": "Muted",
+            "short": "muted",
+            "category": "variant"
+        },
+        {
+            "id": "bold",
+            "name": "Bold",
+            "short": "bold",
+            "category": "variant"
+        },
+        {
+            "id": "full",
+            "name": "Full Width",
+            "short": "full",
+            "category": "size"
+        },
+        {
+            "id": "rounded",
+            "name": "Rounded",
+            "short": "rounded",
+            "category": "style"
+        },
+        {
+            "id": "square",
+            "name": "Square",
+            "short": "square",
+            "category": "style"
+        },
+        {
+            "id": "circle",
+            "name": "Circle",
+            "short": "circle",
+            "category": "style"
+        },
+        {
+            "id": "sticky",
+            "name": "Sticky",
+            "short": "sticky",
+            "category": "position"
+        },
+        {
+            "id": "fixed",
+            "name": "Fixed",
+            "short": "fixed",
+            "category": "position"
+        },
+        {
+            "id": "floating",
+            "name": "Floating",
+            "short": "floating",
+            "category": "position"
+        },
+        {
+            "id": "left",
+            "name": "Left Aligned",
+            "short": "left",
+            "category": "position"
+        },
+        {
+            "id": "right",
+            "name": "Right Aligned",
+            "short": "right",
+            "category": "position"
+        },
+        {
+            "id": "center",
+            "name": "Center Aligned",
+            "short": "center",
+            "category": "position"
+        },
+        {
+            "id": "top",
+            "name": "Top",
+            "short": "top",
+            "category": "position"
+        },
+        {
+            "id": "bottom",
+            "name": "Bottom",
+            "short": "bottom",
+            "category": "position"
+        },
+        {
+            "id": "inline",
+            "name": "Inline",
+            "short": "inline",
+            "category": "display"
+        },
+        {
+            "id": "block",
+            "name": "Block",
+            "short": "block",
+            "category": "display"
+        },
+        {
+            "id": "hidden",
+            "name": "Hidden",
+            "short": "hidden",
+            "category": "display"
+        },
+        {
+            "id": "visible",
+            "name": "Visible",
+            "short": "visible",
+            "category": "display"
+        },
+        {
+            "id": "animated",
+            "name": "Animated",
+            "short": "animated",
+            "category": "style"
+        },
+        {
+            "id": "gradient",
+            "name": "Gradient",
+            "short": "gradient",
+            "category": "style"
+        },
+        {
+            "id": "shadow",
+            "name": "Shadow",
+            "short": "shadow",
+            "category": "style"
+        },
+        {
+            "id": "bordered",
+            "name": "Bordered",
+            "short": "bordered",
+            "category": "style"
+        },
+        {
+            "id": "flat",
+            "name": "Flat",
+            "short": "flat",
+            "category": "style"
+        },
+        {
+            "id": "raised",
+            "name": "Raised",
+            "short": "raised",
+            "category": "style"
+        },
+        {
+            "id": "transparent",
+            "name": "Transparent",
+            "short": "transparent",
+            "category": "style"
+        },
+        {
+            "id": "opaque",
+            "name": "Opaque",
+            "short": "opaque",
+            "category": "style"
+        },
+        {
+            "id": "blurred",
+            "name": "Blurred",
+            "short": "blurred",
+            "category": "style"
+        },
+        {
+            "id": "inverted",
+            "name": "Inverted",
+            "short": "inverted",
+            "category": "style"
+        },
+        {
+            "id": "light",
+            "name": "Light Theme",
+            "short": "light",
+            "category": "theme"
+        },
+        {
+            "id": "dark",
+            "name": "Dark Theme",
+            "short": "dark",
+            "category": "theme"
+        },
+        {
+            "id": "info",
+            "name": "Info",
+            "short": "info",
+            "category": "state"
+        },
+        {
+            "id": "destructive",
+            "name": "Destructive",
+            "short": "destructive",
+            "category": "variant"
+        },
+        {
+            "id": "link",
+            "name": "Link Style",
+            "short": "link",
+            "category": "variant"
+        },
+        {
+            "id": "subtle",
+            "name": "Subtle",
+            "short": "subtle",
+            "category": "variant"
+        },
+        {
+            "id": "compact",
+            "name": "Compact",
+            "short": "compact",
+            "category": "size"
+        },
+        {
+            "id": "loose",
+            "name": "Loose",
+            "short": "loose",
+            "category": "size"
+        },
+        {
+            "id": "dense",
+            "name": "Dense",
+            "short": "dense",
+            "category": "size"
+        },
+        {
+            "id": "fluid",
+            "name": "Fluid",
+            "short": "fluid",
+            "category": "size"
+        },
+        {
+            "id": "responsive",
+            "name": "Responsive",
+            "short": "responsive",
+            "category": "behavior"
+        },
+        {
+            "id": "interactive",
+            "name": "Interactive",
+            "short": "interactive",
+            "category": "behavior"
+        },
+        {
+            "id": "readonly",
+            "name": "Read Only",
+            "short": "readonly",
+            "category": "state"
+        },
+        {
+            "id": "required",
+            "name": "Required",
+            "short": "required",
+            "category": "state"
+        },
+        {
+            "id": "optional",
+            "name": "Optional",
+            "short": "optional",
+            "category": "state"
+        },
+        {
+            "id": "checked",
+            "name": "Checked",
+            "short": "checked",
+            "category": "state"
+        },
+        {
+            "id": "unchecked",
+            "name": "Unchecked",
+            "short": "unchecked",
+            "category": "state"
+        },
+        {
+            "id": "indeterminate",
+            "name": "Indeterminate",
+            "short": "indeterminate",
+            "category": "state"
+        },
+        {
+            "id": "pending",
+            "name": "Pending",
+            "short": "pending",
+            "category": "state"
+        },
+        {
+            "id": "processing",
+            "name": "Processing",
+            "short": "processing",
+            "category": "state"
+        },
+        {
+            "id": "complete",
+            "name": "Complete",
+            "short": "complete",
+            "category": "state"
+        },
+        {
+            "id": "invalid",
+            "name": "Invalid",
+            "short": "invalid",
+            "category": "state"
+        },
+        {
+            "id": "valid",
+            "name": "Valid",
+            "short": "valid",
+            "category": "state"
+        },
+        {
+            "id": "locked",
+            "name": "Locked",
+            "short": "locked",
+            "category": "state"
+        },
+        {
+            "id": "unlocked",
+            "name": "Unlocked",
+            "short": "unlocked",
+            "category": "state"
+        },
+        {
+            "id": "pinned",
+            "name": "Pinned",
+            "short": "pinned",
+            "category": "state"
+        },
+        {
+            "id": "unpinned",
+            "name": "Unpinned",
+            "short": "unpinned",
+            "category": "state"
+        },
+        {
+            "id": "dragging",
+            "name": "Dragging",
+            "short": "dragging",
+            "category": "state"
+        },
+        {
+            "id": "dropping",
+            "name": "Dropping",
+            "short": "dropping",
+            "category": "state"
+        },
+        {
+            "id": "resizing",
+            "name": "Resizing",
+            "short": "resizing",
+            "category": "state"
+        },
+        {
+            "id": "first",
+            "name": "First",
+            "short": "first",
+            "category": "position"
+        },
+        {
+            "id": "last",
+            "name": "Last",
+            "short": "last",
+            "category": "position"
+        },
+        {
+            "id": "odd",
+            "name": "Odd",
+            "short": "odd",
+            "category": "position"
+        },
+        {
+            "id": "even",
+            "name": "Even",
+            "short": "even",
+            "category": "position"
+        },
+        {
+            "id": "mobile",
+            "name": "Mobile",
+            "short": "mobile",
+            "category": "breakpoint"
+        },
+        {
+            "id": "tablet",
+            "name": "Tablet",
+            "short": "tablet",
+            "category": "breakpoint"
+        },
+        {
+            "id": "desktop",
+            "name": "Desktop",
+            "short": "desktop",
+            "category": "breakpoint"
+        },
+        {
+            "id": "wide",
+            "name": "Wide Screen",
+            "short": "wide",
+            "category": "breakpoint"
+        },
+        {
+            "id": "narrow",
+            "name": "Narrow",
+            "short": "narrow",
+            "category": "size"
+        },
+        {
+            "id": "wide-layout",
+            "name": "Wide Layout",
+            "short": "wide",
+            "category": "size"
+        },
+        {
+            "id": "auto",
+            "name": "Auto",
+            "short": "auto",
+            "category": "size"
+        },
+        {
+            "id": "fit",
+            "name": "Fit Content",
+            "short": "fit",
+            "category": "size"
+        },
+        {
+            "id": "stretch",
+            "name": "Stretch",
+            "short": "stretch",
+            "category": "size"
+        },
+        {
+            "id": "truncate",
+            "name": "Truncate",
+            "short": "truncate",
+            "category": "behavior"
+        },
+        {
+            "id": "wrap",
+            "name": "Wrap",
+            "short": "wrap",
+            "category": "behavior"
+        },
+        {
+            "id": "nowrap",
+            "name": "No Wrap",
+            "short": "nowrap",
+            "category": "behavior"
+        },
+        {
+            "id": "scrollable",
+            "name": "Scrollable",
+            "short": "scrollable",
+            "category": "behavior"
+        },
+        {
+            "id": "draggable",
+            "name": "Draggable",
+            "short": "draggable",
+            "category": "behavior"
+        },
+        {
+            "id": "droppable",
+            "name": "Droppable",
+            "short": "droppable",
+            "category": "behavior"
+        },
+        {
+            "id": "sortable",
+            "name": "Sortable",
+            "short": "sortable",
+            "category": "behavior"
+        },
+        {
+            "id": "resizable",
+            "name": "Resizable",
+            "short": "resizable",
+            "category": "behavior"
+        },
+        {
+            "id": "collapsible",
+            "name": "Collapsible",
+            "short": "collapsible",
+            "category": "behavior"
+        },
+        {
+            "id": "expandable",
+            "name": "Expandable",
+            "short": "expandable",
+            "category": "behavior"
+        },
+        {
+            "id": "clickable",
+            "name": "Clickable",
+            "short": "clickable",
+            "category": "behavior"
+        },
+        {
+            "id": "editable",
+            "name": "Editable",
+            "short": "editable",
+            "category": "behavior"
+        },
+        {
+            "id": "striped",
+            "name": "Striped",
+            "short": "striped",
+            "category": "style"
+        },
+        {
+            "id": "dashed",
+            "name": "Dashed",
+            "short": "dashed",
+            "category": "style"
+        },
+        {
+            "id": "dotted",
+            "name": "Dotted",
+            "short": "dotted",
+            "category": "style"
+        },
+        {
+            "id": "solid",
+            "name": "Solid",
+            "short": "solid",
+            "category": "style"
+        },
+        {
+            "id": "glass",
+            "name": "Glass/Frosted",
+            "short": "glass",
+            "category": "style"
+        },
+        {
+            "id": "neon",
+            "name": "Neon",
+            "short": "neon",
+            "category": "style"
+        },
+        {
+            "id": "glossy",
+            "name": "Glossy",
+            "short": "glossy",
+            "category": "style"
+        },
+        {
+            "id": "matte",
+            "name": "Matte",
+            "short": "matte",
+            "category": "style"
+        },
+        {
+            "id": "accent",
+            "name": "Accent",
+            "short": "accent",
+            "category": "variant"
+        },
+        {
+            "id": "neutral",
+            "name": "Neutral",
+            "short": "neutral",
+            "category": "variant"
+        },
+        {
+            "id": "danger",
+            "name": "Danger",
+            "short": "danger",
+            "category": "variant"
+        },
+        {
+            "id": "safe",
+            "name": "Safe",
+            "short": "safe",
+            "category": "variant"
+        },
+        {
+            "id": "urgent",
+            "name": "Urgent",
+            "short": "urgent",
+            "category": "variant"
+        },
+        {
+            "id": "positive",
+            "name": "Positive",
+            "short": "positive",
+            "category": "variant"
+        },
+        {
+            "id": "negative",
+            "name": "Negative",
+            "short": "negative",
+            "category": "variant"
+        },
+        {
+            "id": "new",
+            "name": "New",
+            "short": "new",
+            "category": "state"
+        },
+        {
+            "id": "updated",
+            "name": "Updated",
+            "short": "updated",
+            "category": "state"
+        },
+        {
+            "id": "deprecated",
+            "name": "Deprecated",
+            "short": "deprecated",
+            "category": "state"
+        },
+        {
+            "id": "beta",
+            "name": "Beta",
+            "short": "beta",
+            "category": "state"
+        },
+        {
+            "id": "alpha",
+            "name": "Alpha",
+            "short": "alpha",
+            "category": "state"
+        },
+        {
+            "id": "featured",
+            "name": "Featured",
+            "short": "featured",
+            "category": "state"
+        },
+        {
+            "id": "popular",
+            "name": "Popular",
+            "short": "popular",
+            "category": "state"
+        },
+        {
+            "id": "trending",
+            "name": "Trending",
+            "short": "trending",
+            "category": "state"
+        },
+        {
+            "id": "async",
+            "name": "Async",
+            "short": "async",
+            "category": "behavior"
+        },
+        {
+            "id": "sync",
+            "name": "Sync",
+            "short": "sync",
+            "category": "behavior"
+        },
+        {
+            "id": "lazy",
+            "name": "Lazy Load",
+            "short": "lazy",
+            "category": "behavior"
+        },
+        {
+            "id": "eager",
+            "name": "Eager Load",
+            "short": "eager",
+            "category": "behavior"
+        },
+        {
+            "id": "debounced",
+            "name": "Debounced",
+            "short": "debounced",
+            "category": "behavior"
+        },
+        {
+            "id": "throttled",
+            "name": "Throttled",
+            "short": "throttled",
+            "category": "behavior"
+        },
+        {
+            "id": "memoized",
+            "name": "Memoized",
+            "short": "memoized",
+            "category": "behavior"
+        },
+        {
+            "id": "cached",
+            "name": "Cached",
+            "short": "cached",
+            "category": "behavior"
+        },
+        {
+            "id": "optimized",
+            "name": "Optimized",
+            "short": "optimized",
+            "category": "behavior"
+        },
+        {
+            "id": "virtualized",
+            "name": "Virtualized",
+            "short": "virtualized",
+            "category": "behavior"
+        },
+        {
+            "id": "persistent",
+            "name": "Persistent",
+            "short": "persistent",
+            "category": "behavior"
+        },
+        {
+            "id": "temporary",
+            "name": "Temporary",
+            "short": "temp",
+            "category": "behavior"
+        },
+        {
+            "id": "global",
+            "name": "Global",
+            "short": "global",
+            "category": "scope"
+        },
+        {
+            "id": "local",
+            "name": "Local",
+            "short": "local",
+            "category": "scope"
+        },
+        {
+            "id": "shared",
+            "name": "Shared",
+            "short": "shared",
+            "category": "scope"
+        },
+        {
+            "id": "private",
+            "name": "Private",
+            "short": "private",
+            "category": "scope"
+        },
+        {
+            "id": "public",
+            "name": "Public",
+            "short": "public",
+            "category": "scope"
+        },
+        {
+            "id": "protected",
+            "name": "Protected",
+            "short": "protected",
+            "category": "scope"
+        },
+        {
+            "id": "static",
+            "name": "Static",
+            "short": "static",
+            "category": "scope"
+        },
+        {
+            "id": "dynamic",
+            "name": "Dynamic",
+            "short": "dynamic",
+            "category": "scope"
+        },
+        {
+            "id": "absolute",
+            "name": "Absolute",
+            "short": "absolute",
+            "category": "position"
+        },
+        {
+            "id": "relative",
+            "name": "Relative",
+            "short": "relative",
+            "category": "position"
+        },
+        {
+            "id": "external",
+            "name": "External",
+            "short": "external",
+            "category": "scope"
+        },
+        {
+            "id": "internal",
+            "name": "Internal",
+            "short": "internal",
+            "category": "scope"
+        },
+        {
+            "id": "initial",
+            "name": "Initial",
+            "short": "initial",
+            "category": "state"
+        },
+        {
+            "id": "final",
+            "name": "Final",
+            "short": "final",
+            "category": "state"
+        },
+        {
+            "id": "draft",
+            "name": "Draft",
+            "short": "draft",
+            "category": "state"
+        },
+        {
+            "id": "published",
+            "name": "Published",
+            "short": "published",
+            "category": "state"
+        },
+        {
+            "id": "archived",
+            "name": "Archived",
+            "short": "archived",
+            "category": "state"
+        },
+        {
+            "id": "deleted",
+            "name": "Deleted",
+            "short": "deleted",
+            "category": "state"
+        },
+        {
+            "id": "scheduled",
+            "name": "Scheduled",
+            "short": "scheduled",
+            "category": "state"
+        },
+        {
+            "id": "queued",
+            "name": "Queued",
+            "short": "queued",
+            "category": "state"
+        },
+        {
+            "id": "retrying",
+            "name": "Retrying",
+            "short": "retrying",
+            "category": "state"
+        },
+        {
+            "id": "failed",
+            "name": "Failed",
+            "short": "failed",
+            "category": "state"
+        },
+        {
+            "id": "cancelled",
+            "name": "Cancelled",
+            "short": "cancelled",
+            "category": "state"
+        },
+        {
+            "id": "expired",
+            "name": "Expired",
+            "short": "expired",
+            "category": "state"
+        },
+        {
+            "id": "reversed",
+            "name": "Reversed",
+            "short": "reversed",
+            "category": "style"
+        },
+        {
+            "id": "mirrored",
+            "name": "Mirrored",
+            "short": "mirrored",
+            "category": "style"
+        },
+        {
+            "id": "rotated",
+            "name": "Rotated",
+            "short": "rotated",
+            "category": "style"
+        },
+        {
+            "id": "flipped",
+            "name": "Flipped",
+            "short": "flipped",
+            "category": "style"
+        },
+        {
+            "id": "stacked",
+            "name": "Stacked",
+            "short": "stacked",
+            "category": "layout"
+        },
+        {
+            "id": "nested",
+            "name": "Nested",
+            "short": "nested",
+            "category": "layout"
+        },
+        {
+            "id": "adjacent",
+            "name": "Adjacent",
+            "short": "adjacent",
+            "category": "layout"
+        },
+        {
+            "id": "sibling",
+            "name": "Sibling",
+            "short": "sibling",
+            "category": "layout"
+        },
+        {
+            "id": "parent",
+            "name": "Parent",
+            "short": "parent",
+            "category": "layout"
+        },
+        {
+            "id": "child",
+            "name": "Child",
+            "short": "child",
+            "category": "layout"
+        },
+        {
+            "id": "root",
+            "name": "Root",
+            "short": "root",
+            "category": "layout"
+        },
+        {
+            "id": "leaf",
+            "name": "Leaf",
+            "short": "leaf",
+            "category": "layout"
+        },
+        {
+            "id": "aligned",
+            "name": "Aligned",
+            "short": "aligned",
+            "category": "state"
+        },
+        {
+            "id": "aside",
+            "name": "Aside",
+            "short": "aside",
+            "category": "state"
+        },
+        {
+            "id": "bar",
+            "name": "Bar",
+            "short": "bar",
+            "category": "state"
+        },
+        {
+            "id": "clean",
+            "name": "Clean",
+            "short": "clean",
+            "category": "state"
+        },
+        {
+            "id": "composition",
+            "name": "Composition",
+            "short": "composition",
+            "category": "state"
+        },
+        {
+            "id": "construct",
+            "name": "Construct",
+            "short": "construct",
+            "category": "state"
+        },
+        {
+            "id": "default",
+            "name": "Default",
+            "short": "default",
+            "category": "state"
+        },
+        {
+            "id": "entry",
+            "name": "Entry",
+            "short": "entry",
+            "category": "state"
+        },
+        {
+            "id": "figure",
+            "name": "Figure",
+            "short": "figure",
+            "category": "state"
+        },
+        {
+            "id": "flash",
+            "name": "Flash",
+            "short": "flash",
+            "category": "state"
+        },
+        {
+            "id": "frame",
+            "name": "Frame",
+            "short": "frame",
+            "category": "state"
+        },
+        {
+            "id": "identified",
+            "name": "Identified",
+            "short": "identified",
+            "category": "state"
+        },
+        {
+            "id": "inner",
+            "name": "Inner",
+            "short": "inner",
+            "category": "state"
+        },
+        {
+            "id": "intense",
+            "name": "Intense",
+            "short": "intense",
+            "category": "state"
+        },
+        {
+            "id": "inverse",
+            "name": "Inverse",
+            "short": "inverse",
+            "category": "state"
+        },
+        {
+            "id": "item",
+            "name": "Item",
+            "short": "item",
+            "category": "state"
+        },
+        {
+            "id": "knob",
+            "name": "Knob",
+            "short": "knob",
+            "category": "state"
+        },
+        {
+            "id": "maroon",
+            "name": "Maroon",
+            "short": "maroon",
+            "category": "state"
+        },
+        {
+            "id": "media",
+            "name": "Media",
+            "short": "media",
+            "category": "state"
+        },
+        {
+            "id": "navigation",
+            "name": "Navigation",
+            "short": "navigation",
+            "category": "state"
+        },
+        {
+            "id": "notice",
+            "name": "Notice",
+            "short": "notice",
+            "category": "state"
+        },
+        {
+            "id": "original",
+            "name": "Original",
+            "short": "original",
+            "category": "state"
+        },
+        {
+            "id": "pale",
+            "name": "Pale",
+            "short": "pale",
+            "category": "state"
+        },
+        {
+            "id": "pane",
+            "name": "Pane",
+            "short": "pane",
+            "category": "state"
+        },
+        {
+            "id": "popup",
+            "name": "Popup",
+            "short": "popup",
+            "category": "state"
+        },
+        {
+            "id": "poster",
+            "name": "Poster",
+            "short": "poster",
+            "category": "state"
+        },
+        {
+            "id": "record",
+            "name": "Record",
+            "short": "record",
+            "category": "state"
+        },
+        {
+            "id": "separate",
+            "name": "Separate",
+            "short": "separate",
+            "category": "state"
+        },
+        {
+            "id": "shaded",
+            "name": "Shaded",
+            "short": "shaded",
+            "category": "state"
+        },
+        {
+            "id": "sharp",
+            "name": "Sharp",
+            "short": "sharp",
+            "category": "state"
+        },
+        {
+            "id": "sheet",
+            "name": "Sheet",
+            "short": "sheet",
+            "category": "state"
+        },
+        {
+            "id": "smooth",
+            "name": "Smooth",
+            "short": "smooth",
+            "category": "state"
+        },
+        {
+            "id": "spacing",
+            "name": "Spacing",
+            "short": "spacing",
+            "category": "state"
+        },
+        {
+            "id": "status",
+            "name": "Status",
+            "short": "status",
+            "category": "state"
+        },
+        {
+            "id": "story",
+            "name": "Story",
+            "short": "story",
+            "category": "state"
+        },
+        {
+            "id": "switched",
+            "name": "Switched",
+            "short": "switched",
+            "category": "state"
+        },
+        {
+            "id": "syncing",
+            "name": "Syncing",
+            "short": "syncing",
+            "category": "state"
+        },
+        {
+            "id": "teaser",
+            "name": "Teaser",
+            "short": "teaser",
+            "category": "state"
+        },
+        {
+            "id": "toggled",
+            "name": "Toggled",
+            "short": "toggled",
+            "category": "state"
+        },
+        {
+            "id": "twisted",
+            "name": "Twisted",
+            "short": "twisted",
+            "category": "state"
+        },
+        {
+            "id": "domain-auth",
+            "name": "Authentication",
+            "short": "auth",
+            "category": "domain"
+        },
+        {
+            "id": "domain-payment",
+            "name": "Payment",
+            "short": "pay",
+            "category": "domain"
+        },
+        {
+            "id": "domain-analytics",
+            "name": "Analytics",
+            "short": "analytics",
+            "category": "domain"
+        },
+        {
+            "id": "domain-notification",
+            "name": "Notification",
+            "short": "notif",
+            "category": "domain"
+        },
+        {
+            "id": "domain-messaging",
+            "name": "Messaging",
+            "short": "msg",
+            "category": "domain"
+        },
+        {
+            "id": "domain-search",
+            "name": "Search",
+            "short": "search",
+            "category": "domain"
+        },
+        {
+            "id": "domain-media",
+            "name": "Media",
+            "short": "media",
+            "category": "domain"
+        },
+        {
+            "id": "domain-commerce",
+            "name": "Commerce",
+            "short": "shop",
+            "category": "domain"
+        },
+        {
+            "id": "domain-social",
+            "name": "Social",
+            "short": "social",
+            "category": "domain"
+        },
+        {
+            "id": "domain-settings",
+            "name": "Settings",
+            "short": "settings",
+            "category": "domain"
+        },
+        {
+            "id": "domain-profile",
+            "name": "Profile",
+            "short": "profile",
+            "category": "domain"
+        },
+        {
+            "id": "domain-dashboard",
+            "name": "Dashboard",
+            "short": "dash",
+            "category": "domain"
+        },
+        {
+            "id": "domain-reporting",
+            "name": "Reporting",
+            "short": "report",
+            "category": "domain"
+        },
+        {
+            "id": "domain-admin",
+            "name": "Administration",
+            "short": "admin",
+            "category": "domain"
+        },
+        {
+            "id": "domain-billing",
+            "name": "Billing",
+            "short": "billing",
+            "category": "domain"
+        },
+        {
+            "id": "data-list",
+            "name": "List",
+            "short": "list",
+            "category": "data"
+        },
+        {
+            "id": "data-grid",
+            "name": "Grid",
+            "short": "grid",
+            "category": "data"
+        },
+        {
+            "id": "data-table",
+            "name": "Table",
+            "short": "table",
+            "category": "data"
+        },
+        {
+            "id": "data-tree",
+            "name": "Tree",
+            "short": "tree",
+            "category": "data"
+        },
+        {
+            "id": "data-graph",
+            "name": "Graph",
+            "short": "graph",
+            "category": "data"
+        },
+        {
+            "id": "data-map",
+            "name": "Map",
+            "short": "map",
+            "category": "data"
+        },
+        {
+            "id": "data-timeline",
+            "name": "Timeline",
+            "short": "timeline",
+            "category": "data"
+        },
+        {
+            "id": "data-feed",
+            "name": "Feed",
+            "short": "feed",
+            "category": "data"
+        },
+        {
+            "id": "data-collection",
+            "name": "Collection",
+            "short": "collection",
+            "category": "data"
+        },
+        {
+            "id": "data-stream",
+            "name": "Stream",
+            "short": "stream",
+            "category": "data"
+        },
+        {
+            "id": "data-chart",
+            "name": "Chart",
+            "short": "chart",
+            "category": "data"
+        },
+        {
+            "id": "data-form",
+            "name": "Form",
+            "short": "form",
+            "category": "data"
+        },
+        {
+            "id": "role-admin",
+            "name": "Admin",
+            "short": "admin",
+            "category": "role"
+        },
+        {
+            "id": "role-user",
+            "name": "User",
+            "short": "user",
+            "category": "role"
+        },
+        {
+            "id": "role-guest",
+            "name": "Guest",
+            "short": "guest",
+            "category": "role"
+        },
+        {
+            "id": "role-moderator",
+            "name": "Moderator",
+            "short": "mod",
+            "category": "role"
+        },
+        {
+            "id": "role-owner",
+            "name": "Owner",
+            "short": "owner",
+            "category": "role"
+        },
+        {
+            "id": "role-member",
+            "name": "Member",
+            "short": "member",
+            "category": "role"
+        },
+        {
+            "id": "role-viewer",
+            "name": "Viewer",
+            "short": "viewer",
+            "category": "role"
+        },
+        {
+            "id": "role-editor",
+            "name": "Editor",
+            "short": "editor",
+            "category": "role"
+        },
+        {
+            "id": "role-contributor",
+            "name": "Contributor",
+            "short": "contrib",
+            "category": "role"
+        },
+        {
+            "id": "role-subscriber",
+            "name": "Subscriber",
+            "short": "sub",
+            "category": "role"
+        },
+        {
+            "id": "status-pending",
+            "name": "Pending",
+            "short": "pending",
+            "category": "status"
+        },
+        {
+            "id": "status-approved",
+            "name": "Approved",
+            "short": "approved",
+            "category": "status"
+        },
+        {
+            "id": "status-rejected",
+            "name": "Rejected",
+            "short": "rejected",
+            "category": "status"
+        },
+        {
+            "id": "status-archived",
+            "name": "Archived",
+            "short": "archived",
+            "category": "status"
+        },
+        {
+            "id": "status-draft",
+            "name": "Draft",
+            "short": "draft",
+            "category": "status"
+        },
+        {
+            "id": "status-published",
+            "name": "Published",
+            "short": "published",
+            "category": "status"
+        },
+        {
+            "id": "status-scheduled",
+            "name": "Scheduled",
+            "short": "scheduled",
+            "category": "status"
+        },
+        {
+            "id": "status-expired",
+            "name": "Expired",
+            "short": "expired",
+            "category": "status"
+        },
+        {
+            "id": "status-cancelled",
+            "name": "Cancelled",
+            "short": "cancelled",
+            "category": "status"
+        },
+        {
+            "id": "status-processing",
+            "name": "Processing",
+            "short": "processing",
+            "category": "status"
+        },
+        {
+            "id": "status-completed",
+            "name": "Completed",
+            "short": "completed",
+            "category": "status"
+        },
+        {
+            "id": "status-failed",
+            "name": "Failed",
+            "short": "failed",
+            "category": "status"
+        },
+        {
+            "id": "status-paused",
+            "name": "Paused",
+            "short": "paused",
+            "category": "status"
+        },
+        {
+            "id": "status-queued",
+            "name": "Queued",
+            "short": "queued",
+            "category": "status"
+        },
+        {
+            "id": "status-live",
+            "name": "Live",
+            "short": "live",
+            "category": "status"
+        },
+        {
+            "id": "action-create",
+            "name": "Create",
+            "short": "create",
+            "category": "action"
+        },
+        {
+            "id": "action-read",
+            "name": "Read",
+            "short": "read",
+            "category": "action"
+        },
+        {
+            "id": "action-update",
+            "name": "Update",
+            "short": "update",
+            "category": "action"
+        },
+        {
+            "id": "action-delete",
+            "name": "Delete",
+            "short": "delete",
+            "category": "action"
+        },
+        {
+            "id": "action-submit",
+            "name": "Submit",
+            "short": "submit",
+            "category": "action"
+        },
+        {
+            "id": "action-cancel",
+            "name": "Cancel",
+            "short": "cancel",
+            "category": "action"
+        },
+        {
+            "id": "action-confirm",
+            "name": "Confirm",
+            "short": "confirm",
+            "category": "action"
+        },
+        {
+            "id": "action-reset",
+            "name": "Reset",
+            "short": "reset",
+            "category": "action"
+        },
+        {
+            "id": "action-filter",
+            "name": "Filter",
+            "short": "filter",
+            "category": "action"
+        },
+        {
+            "id": "action-sort",
+            "name": "Sort",
+            "short": "sort",
+            "category": "action"
+        },
+        {
+            "id": "action-export",
+            "name": "Export",
+            "short": "export",
+            "category": "action"
+        },
+        {
+            "id": "action-import",
+            "name": "Import",
+            "short": "import",
+            "category": "action"
+        },
+        {
+            "id": "action-duplicate",
+            "name": "Duplicate",
+            "short": "duplicate",
+            "category": "action"
+        },
+        {
+            "id": "action-archive",
+            "name": "Archive",
+            "short": "archive",
+            "category": "action"
+        },
+        {
+            "id": "action-restore",
+            "name": "Restore",
+            "short": "restore",
+            "category": "action"
+        },
+        {
+            "id": "action-save",
+            "name": "Save",
+            "short": "save",
+            "category": "action"
+        },
+        {
+            "id": "action-edit",
+            "name": "Edit",
+            "short": "edit",
+            "category": "action"
+        },
+        {
+            "id": "action-view",
+            "name": "View",
+            "short": "view",
+            "category": "action"
+        },
+        {
+            "id": "action-search",
+            "name": "Search",
+            "short": "search",
+            "category": "action"
+        },
+        {
+            "id": "action-upload",
+            "name": "Upload",
+            "short": "upload",
+            "category": "action"
+        },
+        {
+            "id": "action-download",
+            "name": "Download",
+            "short": "download",
+            "category": "action"
+        },
+        {
+            "id": "action-share",
+            "name": "Share",
+            "short": "share",
+            "category": "action"
+        },
+        {
+            "id": "action-copy",
+            "name": "Copy",
+            "short": "copy",
+            "category": "action"
+        },
+        {
+            "id": "entity-user",
+            "name": "User",
+            "short": "user",
+            "category": "entity"
+        },
+        {
+            "id": "entity-post",
+            "name": "Post",
+            "short": "post",
+            "category": "entity"
+        },
+        {
+            "id": "entity-comment",
+            "name": "Comment",
+            "short": "comment",
+            "category": "entity"
+        },
+        {
+            "id": "entity-project",
+            "name": "Project",
+            "short": "project",
+            "category": "entity"
+        },
+        {
+            "id": "entity-task",
+            "name": "Task",
+            "short": "task",
+            "category": "entity"
+        },
+        {
+            "id": "entity-file",
+            "name": "File",
+            "short": "file",
+            "category": "entity"
+        },
+        {
+            "id": "entity-folder",
+            "name": "Folder",
+            "short": "folder",
+            "category": "entity"
+        },
+        {
+            "id": "entity-tag",
+            "name": "Tag",
+            "short": "tag",
+            "category": "entity"
+        },
+        {
+            "id": "entity-category",
+            "name": "Category",
+            "short": "cat",
+            "category": "entity"
+        },
+        {
+            "id": "entity-workspace",
+            "name": "Workspace",
+            "short": "workspace",
+            "category": "entity"
+        },
+        {
+            "id": "entity-team",
+            "name": "Team",
+            "short": "team",
+            "category": "entity"
+        },
+        {
+            "id": "entity-organization",
+            "name": "Organization",
+            "short": "org",
+            "category": "entity"
+        },
+        {
+            "id": "entity-document",
+            "name": "Document",
+            "short": "doc",
+            "category": "entity"
+        },
+        {
+            "id": "entity-message",
+            "name": "Message",
+            "short": "msg",
+            "category": "entity"
+        },
+        {
+            "id": "entity-notification",
+            "name": "Notification",
+            "short": "notif",
+            "category": "entity"
+        },
+        {
+            "id": "entity-event",
+            "name": "Event",
+            "short": "event",
+            "category": "entity"
+        },
+        {
+            "id": "entity-invoice",
+            "name": "Invoice",
+            "short": "invoice",
+            "category": "entity"
+        },
+        {
+            "id": "entity-order",
+            "name": "Order",
+            "short": "order",
+            "category": "entity"
+        },
+        {
+            "id": "temporal-past",
+            "name": "Past",
+            "short": "past",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-present",
+            "name": "Present",
+            "short": "present",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-future",
+            "name": "Future",
+            "short": "future",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-recent",
+            "name": "Recent",
+            "short": "recent",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-upcoming",
+            "name": "Upcoming",
+            "short": "upcoming",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-expired",
+            "name": "Expired",
+            "short": "expired",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-scheduled",
+            "name": "Scheduled",
+            "short": "scheduled",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-current",
+            "name": "Current",
+            "short": "current",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-today",
+            "name": "Today",
+            "short": "today",
+            "category": "temporal"
+        },
+        {
+            "id": "temporal-yesterday",
+            "name": "Yesterday",
+            "short": "yesterday",
+            "category": "temporal"
+        },
+        {
+            "id": "access-public",
+            "name": "Public",
+            "short": "public",
+            "category": "access"
+        },
+        {
+            "id": "access-private",
+            "name": "Private",
+            "short": "private",
+            "category": "access"
+        },
+        {
+            "id": "access-shared",
+            "name": "Shared",
+            "short": "shared",
+            "category": "access"
+        },
+        {
+            "id": "access-restricted",
+            "name": "Restricted",
+            "short": "restricted",
+            "category": "access"
+        },
+        {
+            "id": "access-internal",
+            "name": "Internal",
+            "short": "internal",
+            "category": "access"
+        },
+        {
+            "id": "access-external",
+            "name": "External",
+            "short": "external",
+            "category": "access"
+        },
+        {
+            "id": "access-protected",
+            "name": "Protected",
+            "short": "protected",
+            "category": "access"
+        },
+        {
+            "id": "content-truncate",
+            "name": "Truncate",
+            "short": "truncate",
+            "category": "content"
+        },
+        {
+            "id": "content-ellipsis",
+            "name": "Ellipsis",
+            "short": "ellipsis",
+            "category": "content"
+        },
+        {
+            "id": "content-empty",
+            "name": "Empty",
+            "short": "empty",
+            "category": "content"
+        },
+        {
+            "id": "content-loading",
+            "name": "Loading",
+            "short": "loading",
+            "category": "content"
+        },
+        {
+            "id": "content-placeholder",
+            "name": "Placeholder",
+            "short": "placeholder",
+            "category": "content"
+        },
+        {
+            "id": "content-error",
+            "name": "Error",
+            "short": "error",
+            "category": "content"
+        },
+        {
+            "id": "content-skeleton",
+            "name": "Skeleton",
+            "short": "skeleton",
+            "category": "content"
+        },
+        {
+            "id": "content-preview",
+            "name": "Preview",
+            "short": "preview",
+            "category": "content"
+        },
+        {
+            "id": "spacing-compact",
+            "name": "Compact",
+            "short": "compact",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-relaxed",
+            "name": "Relaxed",
+            "short": "relaxed",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-dense",
+            "name": "Dense",
+            "short": "dense",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-spacious",
+            "name": "Spacious",
+            "short": "spacious",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-flush",
+            "name": "Flush",
+            "short": "flush",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-inset",
+            "name": "Inset",
+            "short": "inset",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-stack",
+            "name": "Stack",
+            "short": "stack",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-inline",
+            "name": "Inline",
+            "short": "inline",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-none",
+            "name": "None",
+            "short": "none",
+            "category": "spacing"
+        },
+        {
+            "id": "spacing-auto",
+            "name": "Auto",
+            "short": "auto",
+            "category": "spacing"
+        },
+        {
+            "id": "elevation-flat",
+            "name": "Flat",
+            "short": "flat",
+            "category": "elevation"
+        },
+        {
+            "id": "elevation-raised",
+            "name": "Raised",
+            "short": "raised",
+            "category": "elevation"
+        },
+        {
+            "id": "elevation-floating",
+            "name": "Floating",
+            "short": "floating",
+            "category": "elevation"
+        },
+        {
+            "id": "elevation-sunken",
+            "name": "Sunken",
+            "short": "sunken",
+            "category": "elevation"
+        },
+        {
+            "id": "elevation-overlay",
+            "name": "Overlay",
+            "short": "overlay",
+            "category": "elevation"
+        },
+        {
+            "id": "elevation-modal",
+            "name": "Modal",
+            "short": "modal",
+            "category": "elevation"
+        },
+        {
+            "id": "elevation-popup",
+            "name": "Popup",
+            "short": "popup",
+            "category": "elevation"
+        },
+        {
+            "id": "interaction-clickable",
+            "name": "Clickable",
+            "short": "clickable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-draggable",
+            "name": "Draggable",
+            "short": "draggable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-droppable",
+            "name": "Droppable",
+            "short": "droppable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-resizable",
+            "name": "Resizable",
+            "short": "resizable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-selectable",
+            "name": "Selectable",
+            "short": "selectable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-editable",
+            "name": "Editable",
+            "short": "editable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-sortable",
+            "name": "Sortable",
+            "short": "sortable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-swipeable",
+            "name": "Swipeable",
+            "short": "swipeable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-scrollable",
+            "name": "Scrollable",
+            "short": "scrollable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-expandable",
+            "name": "Expandable",
+            "short": "expandable",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-collapsible",
+            "name": "Collapsible",
+            "short": "collapsible",
+            "category": "interaction"
+        },
+        {
+            "id": "interaction-toggleable",
+            "name": "Toggleable",
+            "short": "toggleable",
+            "category": "interaction"
+        },
+        {
+            "id": "semantic-primary",
+            "name": "Primary",
+            "short": "primary",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-secondary",
+            "name": "Secondary",
+            "short": "secondary",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-tertiary",
+            "name": "Tertiary",
+            "short": "tertiary",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-success",
+            "name": "Success",
+            "short": "success",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-warning",
+            "name": "Warning",
+            "short": "warning",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-danger",
+            "name": "Danger",
+            "short": "danger",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-info",
+            "name": "Info",
+            "short": "info",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-neutral",
+            "name": "Neutral",
+            "short": "neutral",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-positive",
+            "name": "Positive",
+            "short": "positive",
+            "category": "semantic"
+        },
+        {
+            "id": "semantic-negative",
+            "name": "Negative",
+            "short": "negative",
+            "category": "semantic"
+        },
+        {
+            "id": "aspect-square",
+            "name": "Square",
+            "short": "square",
+            "category": "aspect"
+        },
+        {
+            "id": "aspect-video",
+            "name": "Video",
+            "short": "video",
+            "category": "aspect"
+        },
+        {
+            "id": "aspect-portrait",
+            "name": "Portrait",
+            "short": "portrait",
+            "category": "aspect"
+        },
+        {
+            "id": "aspect-landscape",
+            "name": "Landscape",
+            "short": "landscape",
+            "category": "aspect"
+        },
+        {
+            "id": "aspect-wide",
+            "name": "Wide",
+            "short": "wide",
+            "category": "aspect"
+        },
+        {
+            "id": "order-first",
+            "name": "First",
+            "short": "first",
+            "category": "order"
+        },
+        {
+            "id": "order-last",
+            "name": "Last",
+            "short": "last",
+            "category": "order"
+        },
+        {
+            "id": "order-above",
+            "name": "Above",
+            "short": "above",
+            "category": "order"
+        },
+        {
+            "id": "order-below",
+            "name": "Below",
+            "short": "below",
+            "category": "order"
+        },
+        {
+            "id": "order-top",
+            "name": "Top",
+            "short": "top",
+            "category": "order"
+        },
+        {
+            "id": "order-bottom",
+            "name": "Bottom",
+            "short": "bottom",
+            "category": "order"
+        },
+        {
+            "id": "order-foreground",
+            "name": "Foreground",
+            "short": "fg",
+            "category": "order"
+        },
+        {
+            "id": "order-background",
+            "name": "Background",
+            "short": "bg",
+            "category": "order"
+        }
+    ],
+    "versions": [
+        {
+            "id": "v1",
+            "name": "Version 1.0",
+            "value": "v1.0",
+            "short": "v1",
+            "type": "major"
+        },
+        {
+            "id": "v1.1",
+            "name": "Version 1.1",
+            "value": "v1.1",
+            "short": "v1.1",
+            "type": "minor"
+        },
+        {
+            "id": "v2",
+            "name": "Version 2.0",
+            "value": "v2.0",
+            "short": "v2",
+            "type": "major"
+        },
+        {
+            "id": "nightly",
+            "name": "Nightly Build",
+            "value": "nightly",
+            "short": "nightly",
+            "type": "development"
+        },
+        {
+            "id": "canary",
+            "name": "Canary Release",
+            "value": "canary",
+            "short": "canary",
+            "type": "pre-release"
+        },
+        {
+            "id": "stable",
+            "name": "Stable Release",
+            "value": "stable",
+            "short": "stable",
+            "type": "stability"
+        },
+        {
+            "id": "patch",
+            "name": "Patch Release",
+            "value": "patch",
+            "short": "patch",
+            "type": "stability"
+        },
+        {
+            "id": "latest",
+            "name": "Latest",
+            "value": "latest",
+            "short": "latest",
+            "type": "general"
+        },
+        {
+            "id": "next",
+            "name": "Next Release",
+            "value": "next",
+            "short": "next",
+            "type": "future"
+        },
+        {
+            "id": "rc1",
+            "name": "Release Candidate 1",
+            "value": "rc1",
+            "short": "rc1",
+            "type": "release-candidate"
+        },
+        {
+            "id": "rc2",
+            "name": "Release Candidate 2",
+            "value": "rc2",
+            "short": "rc2",
+            "type": "release-candidate"
+        },
+        {
+            "id": "dev",
+            "name": "Development",
+            "value": "dev",
+            "short": "dev",
+            "type": "development"
+        },
+        {
+            "id": "test",
+            "name": "Test Build",
+            "value": "test",
+            "short": "test",
+            "type": "testing"
+        },
+        {
+            "id": "experimental",
+            "name": "Experimental",
+            "value": "experimental",
+            "short": "exp",
+            "type": "development"
+        },
+        {
+            "id": "legacy",
+            "name": "Legacy",
+            "value": "legacy",
+            "short": "legacy",
+            "type": "legacy"
+        },
+        {
+            "id": "deprecated",
+            "name": "Deprecated",
+            "value": "deprecated",
+            "short": "deprecated",
+            "type": "legacy"
+        },
+        {
+            "id": "milestone",
+            "name": "Milestone Release",
+            "value": "milestone",
+            "short": "ms",
+            "type": "development"
+        },
+        {
+            "id": "snapshot",
+            "name": "Snapshot",
+            "value": "snapshot",
+            "short": "snap",
+            "type": "development"
+        },
+        {
+            "id": "prototype",
+            "name": "Prototype",
+            "value": "prototype",
+            "short": "proto",
+            "type": "development"
+        },
+        {
+            "id": "proof-of-concept",
+            "name": "Proof of Concept",
+            "value": "proof-of-concept",
+            "short": "poc",
+            "type": "development"
+        },
+        {
+            "id": "feature",
+            "name": "Feature Release",
+            "value": "feature",
+            "short": "feat",
+            "type": "development"
+        },
+        {
+            "id": "internal",
+            "name": "Internal Build",
+            "value": "internal",
+            "short": "internal",
+            "type": "development"
+        },
+        {
+            "id": "dogfood",
+            "name": "Dogfood Build",
+            "value": "dogfood",
+            "short": "dogfood",
+            "type": "testing"
+        },
+        {
+            "id": "qa",
+            "name": "QA Build",
+            "value": "qa",
+            "short": "qa",
+            "type": "testing"
+        },
+        {
+            "id": "uat",
+            "name": "User Acceptance Testing",
+            "value": "uat",
+            "short": "uat",
+            "type": "testing"
+        },
+        {
+            "id": "staging",
+            "name": "Staging",
+            "value": "staging",
+            "short": "staging",
+            "type": "testing"
+        },
+        {
+            "id": "edge",
+            "name": "Edge Release",
+            "value": "edge",
+            "short": "edge",
+            "type": "pre-release"
+        },
+        {
+            "id": "insider",
+            "name": "Insider Preview",
+            "value": "insider",
+            "short": "insider",
+            "type": "pre-release"
+        },
+        {
+            "id": "rc",
+            "name": "Release Candidate",
+            "value": "rc",
+            "short": "rc",
+            "type": "release-candidate"
+        },
+        {
+            "id": "ga",
+            "name": "General Availability",
+            "value": "ga",
+            "short": "ga",
+            "type": "stability"
+        },
+        {
+            "id": "production",
+            "name": "Production",
+            "value": "production",
+            "short": "prod",
+            "type": "stability"
+        },
+        {
+            "id": "lts",
+            "name": "Long Term Support",
+            "value": "lts",
+            "short": "lts",
+            "type": "stability"
+        },
+        {
+            "id": "sts",
+            "name": "Short Term Support",
+            "value": "sts",
+            "short": "sts",
+            "type": "stability"
+        },
+        {
+            "id": "current",
+            "name": "Current",
+            "value": "current",
+            "short": "current",
+            "type": "general"
+        },
+        {
+            "id": "rolling",
+            "name": "Rolling Release",
+            "value": "rolling",
+            "short": "rolling",
+            "type": "general"
+        },
+        {
+            "id": "unsupported",
+            "name": "Unsupported",
+            "value": "unsupported",
+            "short": "unsupported",
+            "type": "legacy"
+        },
+        {
+            "id": "archived",
+            "name": "Archived",
+            "value": "archived",
+            "short": "archived",
+            "type": "legacy"
+        },
+        {
+            "id": "eol",
+            "name": "End of Life",
+            "value": "eol",
+            "short": "eol",
+            "type": "legacy"
+        },
+        {
+            "id": "frozen",
+            "name": "Frozen Release",
+            "value": "frozen",
+            "short": "frozen",
+            "type": "stability"
+        },
+        {
+            "id": "security-only",
+            "name": "Security Only",
+            "value": "security-only",
+            "short": "sec-only",
+            "type": "legacy"
+        },
+        {
+            "id": "v1-2",
+            "name": "Version 1.2",
+            "value": "v1.2",
+            "short": "v1.2",
+            "type": "minor"
+        },
+        {
+            "id": "v1-3",
+            "name": "Version 1.3",
+            "value": "v1.3",
+            "short": "v1.3",
+            "type": "minor"
+        },
+        {
+            "id": "v1-4",
+            "name": "Version 1.4",
+            "value": "v1.4",
+            "short": "v1.4",
+            "type": "minor"
+        },
+        {
+            "id": "v1-5",
+            "name": "Version 1.5",
+            "value": "v1.5",
+            "short": "v1.5",
+            "type": "minor"
+        },
+        {
+            "id": "v1-6",
+            "name": "Version 1.6",
+            "value": "v1.6",
+            "short": "v1.6",
+            "type": "minor"
+        },
+        {
+            "id": "v1-7",
+            "name": "Version 1.7",
+            "value": "v1.7",
+            "short": "v1.7",
+            "type": "minor"
+        },
+        {
+            "id": "v1-8",
+            "name": "Version 1.8",
+            "value": "v1.8",
+            "short": "v1.8",
+            "type": "minor"
+        },
+        {
+            "id": "v1-9",
+            "name": "Version 1.9",
+            "value": "v1.9",
+            "short": "v1.9",
+            "type": "minor"
+        },
+        {
+            "id": "v2-1",
+            "name": "Version 2.1",
+            "value": "v2.1",
+            "short": "v2.1",
+            "type": "minor"
+        },
+        {
+            "id": "v2-2",
+            "name": "Version 2.2",
+            "value": "v2.2",
+            "short": "v2.2",
+            "type": "minor"
+        },
+        {
+            "id": "v2-3",
+            "name": "Version 2.3",
+            "value": "v2.3",
+            "short": "v2.3",
+            "type": "minor"
+        },
+        {
+            "id": "v2-4",
+            "name": "Version 2.4",
+            "value": "v2.4",
+            "short": "v2.4",
+            "type": "minor"
+        },
+        {
+            "id": "v2-5",
+            "name": "Version 2.5",
+            "value": "v2.5",
+            "short": "v2.5",
+            "type": "minor"
+        },
+        {
+            "id": "v2-6",
+            "name": "Version 2.6",
+            "value": "v2.6",
+            "short": "v2.6",
+            "type": "minor"
+        },
+        {
+            "id": "v2-7",
+            "name": "Version 2.7",
+            "value": "v2.7",
+            "short": "v2.7",
+            "type": "minor"
+        },
+        {
+            "id": "v2-8",
+            "name": "Version 2.8",
+            "value": "v2.8",
+            "short": "v2.8",
+            "type": "minor"
+        },
+        {
+            "id": "v2-9",
+            "name": "Version 2.9",
+            "value": "v2.9",
+            "short": "v2.9",
+            "type": "minor"
+        },
+        {
+            "id": "v3",
+            "name": "Version 3.0",
+            "value": "v3.0",
+            "short": "v3",
+            "type": "major"
+        },
+        {
+            "id": "v3-1",
+            "name": "Version 3.1",
+            "value": "v3.1",
+            "short": "v3.1",
+            "type": "minor"
+        },
+        {
+            "id": "v4",
+            "name": "Version 4.0",
+            "value": "v4.0",
+            "short": "v4",
+            "type": "major"
+        },
+        {
+            "id": "v5",
+            "name": "Version 5.0",
+            "value": "v5.0",
+            "short": "v5",
+            "type": "major"
+        }
+    ]
+}

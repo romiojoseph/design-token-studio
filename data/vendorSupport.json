@@ -1,0 +1,51 @@
+[
+    {
+        "property": "appearance",
+        "prefixes": [
+            "-webkit-appearance",
+            "-moz-appearance",
+            "-ms-appearance",
+            "-o-appearance",
+            "appearance"
+        ]
+    },
+    {
+        "property": "backdrop-filter",
+        "prefixes": [
+            "-webkit-backdrop-filter",
+            "backdrop-filter"
+        ]
+    },
+    {
+        "property": "user-select",
+        "prefixes": [
+            "-webkit-user-select",
+            "-moz-user-select",
+            "-ms-user-select",
+            "-o-user-select",
+            "user-select"
+        ]
+    },
+    {
+        "property": "text-size-adjust",
+        "prefixes": [
+            "-webkit-text-size-adjust",
+            "-ms-text-size-adjust",
+            "text-size-adjust"
+        ]
+    },
+    {
+        "property": "clip-path",
+        "prefixes": [
+            "-webkit-clip-path",
+            "clip-path"
+        ]
+    },
+    {
+        "property": "line-clamp",
+        "prefixes": [
+            "-webkit-line-clamp",
+            "line-clamp"
+        ]
+    }
+]

@@ -1,0 +1,2913 @@
+[
+    {
+        "name": "fade-in",
+        "label": "Fade In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "fade-out",
+        "label": "Fade Out",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "slide-in-right",
+        "label": "Slide In Right",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 100,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "slide-in-left",
+        "label": "Slide In Left",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -100,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "slide-in-up",
+        "label": "Slide In Up",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 100,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "slide-in-down",
+        "label": "Slide In Down",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": -100,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "spin",
+        "label": "Spin",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 360,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "ping",
+        "label": "Ping",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 2
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 2
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "pulse",
+        "label": "Pulse",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.05
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "bounce",
+        "label": "Bounce",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1,
+                "timing": "cubic-bezier(0.8, 0, 1, 1)"
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": -25,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1,
+                "timing": "cubic-bezier(0, 0, 0.2, 1)"
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "shake",
+        "label": "Shake",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 10,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 20,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 30,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 40,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 60,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 70,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 80,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 90,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "wobble",
+        "label": "Wobble",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 15,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 30,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 4,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 45,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -4,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 60,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 2,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -1,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "swing",
+        "label": "Swing",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 20,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 15,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 40,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -10,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 60,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 80,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "flip",
+        "label": "Flip",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotateY",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotateY",
+                        "value": 360,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "flip-in-x",
+        "label": "Flip In X",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotateX",
+                        "value": -90,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotateX",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "flip-in-y",
+        "label": "Flip In Y",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotateY",
+                        "value": -90,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotateY",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "zoom-in",
+        "label": "Zoom In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "zoom-out",
+        "label": "Zoom Out",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "zoom-pan-in",
+        "label": "Zoom Pan In",
+        "frames": [
+            {
+                "position": 0,
+                "opacity": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.5
+                    },
+                    {
+                        "type": "translateX",
+                        "value": 40
+                    }
+                ]
+            },
+            {
+                "position": 100,
+                "opacity": 1,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "translateX",
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "zoom-pan-out",
+        "label": "Zoom Pan Out",
+        "frames": [
+            {
+                "position": 0,
+                "opacity": 1,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "translateX",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "position": 100,
+                "opacity": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.8
+                    },
+                    {
+                        "type": "translateX",
+                        "value": -20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "zoom-rotate-in",
+        "label": "Zoom Rotate In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -180,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "bounce-in",
+        "label": "Bounce In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.3
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.05
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 70,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.9
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "bounce-out",
+        "label": "Bounce Out",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 30,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.9
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.05
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.3
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "rotate-in",
+        "label": "Rotate In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -200,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "rotate-out",
+        "label": "Rotate Out",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 200,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "roll-in",
+        "label": "Roll In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -100,
+                        "unit": "%"
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -120,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "roll-out",
+        "label": "Roll Out",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 100,
+                        "unit": "%"
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 120,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "jello",
+        "label": "Jello",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 0,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 11.1,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": -12.5,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": -12.5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 22.2,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 6.25,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": 6.25,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 33.3,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": -3.125,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": -3.125,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 44.4,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 1.5625,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": 1.5625,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 55.5,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": -0.78125,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": -0.78125,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 66.6,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 0.390625,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": 0.390625,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 77.7,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": -0.1953125,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": -0.1953125,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 88.8,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 0,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 0,
+                        "unit": "deg"
+                    },
+                    {
+                        "type": "skewY",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "heartbeat",
+        "label": "Heartbeat",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 14,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.3
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 28,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 42,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.3
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 70,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "rubberband",
+        "label": "Rubber Band",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 30,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1.25
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 0.75
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 40,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 0.75
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1.25
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1.15
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 0.85
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 65,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 0.95
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1.05
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1.05
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 0.95
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "tada",
+        "label": "Tada",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 10,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.9
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 20,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.9
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 30,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 40,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 60,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 70,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 80,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 90,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 3,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "flash",
+        "label": "Flash",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [],
+                "opacity": 1
+            },
+            {
+                "position": 25,
+                "transforms": [],
+                "opacity": 0
+            },
+            {
+                "position": 50,
+                "transforms": [],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "blink",
+        "label": "Blink",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "float",
+        "label": "Float",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": -20,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "glow",
+        "label": "Glow",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    }
+                ],
+                "opacity": 0.8
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "sway",
+        "label": "Sway",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "wiggle",
+        "label": "Wiggle",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 25,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "slide-rotate-in",
+        "label": "Slide Rotate In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -100,
+                        "unit": "%"
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -180,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "scale-rotate",
+        "label": "Scale Rotate",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.2
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 180,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 360,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "morph",
+        "label": "Morph",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 25,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1.5
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 0.5
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 0.5
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1.5
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1.2
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 0.8
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "pendulum",
+        "label": "Pendulum",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -20,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1,
+                "timing": "ease-in-out"
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 20,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1,
+                "timing": "ease-in-out"
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -20,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "elevator",
+        "label": "Elevator",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 100,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 30,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": -10,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 5,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "spiral-in",
+        "label": "Spiral In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0
+                    },
+                    {
+                        "type": "rotate",
+                        "value": -720,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    },
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "typing",
+        "label": "Typing Dots",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0.5
+            },
+            {
+                "position": 33,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": -10,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 66,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0.5
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0.5
+            }
+        ]
+    },
+    {
+        "name": "tilt",
+        "label": "Tilt",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 25,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -10,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 10,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": -5,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotate",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "squeeze",
+        "label": "Squeeze",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 0.7
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1.3
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "stretch",
+        "label": "Stretch",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1.3
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 0.7
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    },
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "pop-in",
+        "label": "Pop In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 60,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.2
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "pop-out",
+        "label": "Pop Out",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 40,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.2
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "blur-in",
+        "label": "Blur In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [],
+                "filters": [
+                    {
+                        "type": "blur",
+                        "value": 10,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [],
+                "filters": [
+                    {
+                        "type": "blur",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "slide-fade-up",
+        "label": "Slide Fade Up",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 30,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "slide-fade-down",
+        "label": "Slide Fade Down",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": -30,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateY",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "perspective-flip",
+        "label": "Perspective Flip",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotateY",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "rotateY",
+                        "value": 90,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0.5
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotateY",
+                        "value": 180,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "warp",
+        "label": "Warp",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 25,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 20,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": -20,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 75,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 10,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "hover-grow",
+        "label": "Hover Grow",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1.1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "hover-shrink",
+        "label": "Hover Shrink",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scale",
+                        "value": 0.9
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "bounce-horizontal",
+        "label": "Bounce Horizontal",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 25,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "shimmer",
+        "label": "Shimmer",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -100,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 0.3
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 100,
+                        "unit": "%"
+                    }
+                ],
+                "opacity": 0.3
+            }
+        ]
+    },
+    {
+        "name": "typewriter",
+        "label": "Typewriter",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "unfold-horizontal",
+        "label": "Unfold Horizontal",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "unfold-vertical",
+        "label": "Unfold Vertical",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleY",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "fold-horizontal",
+        "label": "Fold Horizontal",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleX",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "fold-vertical",
+        "label": "Fold Vertical",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "scaleY",
+                        "value": 1
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "scaleY",
+                        "value": 0
+                    }
+                ],
+                "opacity": 0
+            }
+        ]
+    },
+    {
+        "name": "skew-in",
+        "label": "Skew In",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": -30,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 0
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "skewX",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "perspective-rotate",
+        "label": "Perspective Rotate",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "rotateX",
+                        "value": 0,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "rotateX",
+                        "value": 360,
+                        "unit": "deg"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "name": "glitch",
+        "label": "Glitch",
+        "frames": [
+            {
+                "position": 0,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 10,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -5,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0.8
+            },
+            {
+                "position": 20,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 5,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0.9
+            },
+            {
+                "position": 30,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": -3,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 0.7
+            },
+            {
+                "position": 40,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 3,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 50,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            },
+            {
+                "position": 100,
+                "transforms": [
+                    {
+                        "type": "translateX",
+                        "value": 0,
+                        "unit": "px"
+                    }
+                ],
+                "opacity": 1
+            }
+        ]
+    }
+]

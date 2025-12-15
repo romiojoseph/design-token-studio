@@ -1,0 +1,148 @@
+{
+    "dimensionProperties": [
+        "width",
+        "height",
+        "min-width",
+        "max-width",
+        "min-height",
+        "max-height",
+        "margin",
+        "margin-top",
+        "margin-right",
+        "margin-bottom",
+        "margin-left",
+        "padding",
+        "padding-top",
+        "padding-right",
+        "padding-bottom",
+        "padding-left",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "font-size",
+        "letter-spacing",
+        "word-spacing",
+        "border-width",
+        "border-top-width",
+        "border-right-width",
+        "border-bottom-width",
+        "border-left-width",
+        "border-radius",
+        "gap",
+        "row-gap",
+        "column-gap",
+        "flex-basis",
+        "outline-width",
+        "text-indent",
+        "transition-duration",
+        "transition-delay",
+        "animation-duration",
+        "animation-delay",
+        "translateX",
+        "translateY",
+        "translateZ",
+        "rotate",
+        "rotateX",
+        "rotateY",
+        "rotateZ",
+        "skewX",
+        "skewY",
+        "perspective",
+        "blur",
+        "backdrop-blur"
+    ],
+    "cssUnits": [
+        "px",
+        "rem",
+        "em",
+        "%",
+        "vw",
+        "vh",
+        "s",
+        "ms",
+        "deg",
+        "ch",
+        "fr"
+    ],
+    "transformFunctions": [
+        "translate",
+        "translateX",
+        "translateY",
+        "translateZ",
+        "scale",
+        "scaleX",
+        "scaleY",
+        "scaleZ",
+        "rotate",
+        "rotateX",
+        "rotateY",
+        "rotateZ",
+        "skew",
+        "skewX",
+        "skewY",
+        "perspective"
+    ],
+    "filterFunctions": [
+        "blur",
+        "brightness",
+        "contrast",
+        "grayscale",
+        "hue-rotate",
+        "invert",
+        "sepia",
+        "saturate"
+    ],
+    "backdropFilterFunctions": [
+        "backdrop-blur",
+        "backdrop-brightness",
+        "backdrop-contrast",
+        "backdrop-grayscale",
+        "backdrop-hue-rotate",
+        "backdrop-invert",
+        "backdrop-sepia",
+        "backdrop-saturate"
+    ],
+    "propertyGroups": {
+        "margin": [
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left"
+        ],
+        "padding": [
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left"
+        ],
+        "border": [
+            "border-width",
+            "border-style",
+            "border-color"
+        ],
+        "border-radius": [
+            "border-top-left-radius",
+            "border-top-right-radius",
+            "border-bottom-right-radius",
+            "border-bottom-left-radius"
+        ],
+        "width": [
+            "min-width",
+            "max-width"
+        ],
+        "height": [
+            "min-height",
+            "max-height"
+        ],
+        "overflow": [
+            "overflow-x",
+            "overflow-y"
+        ],
+        "flex": [
+            "flex-grow",
+            "flex-shrink",
+            "flex-basis"
+        ]
+    }
+}

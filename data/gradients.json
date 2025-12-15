@@ -1,0 +1,951 @@
+{
+    "presets": {
+        "sunset": {
+            "name": "Sunset",
+            "type": "linear",
+            "rotation": 360,
+            "stops": [
+                {
+                    "color": "#0F2027",
+                    "position": 0
+                },
+                {
+                    "color": "#203A43",
+                    "position": 50
+                },
+                {
+                    "color": "#2C5364",
+                    "position": 100
+                }
+            ]
+        },
+        "ocean": {
+            "name": "Ocean Breeze",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#2e3192",
+                    "position": 0
+                },
+                {
+                    "color": "#1bffff",
+                    "position": 100
+                }
+            ]
+        },
+        "purple_haze": {
+            "name": "Purple Haze",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#8E2DE2",
+                    "position": 0
+                },
+                {
+                    "color": "#4A00E0",
+                    "position": 100
+                }
+            ]
+        },
+        "forest": {
+            "name": "Forest",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#134e5e",
+                    "position": 0
+                },
+                {
+                    "color": "#71b280",
+                    "position": 100
+                }
+            ]
+        },
+        "fire": {
+            "name": "Fire",
+            "type": "linear",
+            "rotation": 0,
+            "stops": [
+                {
+                    "color": "#F12711",
+                    "position": 0
+                },
+                {
+                    "color": "#f5af19",
+                    "position": 100
+                }
+            ]
+        },
+        "cotton_candy": {
+            "name": "Cotton Candy",
+            "type": "linear",
+            "rotation": 120,
+            "stops": [
+                {
+                    "color": "#fbc2eb",
+                    "position": 0
+                },
+                {
+                    "color": "#a6c1ee",
+                    "position": 100
+                }
+            ]
+        },
+        "aurora": {
+            "name": "Aurora",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#00c6ff",
+                    "position": 0
+                },
+                {
+                    "color": "#0072ff",
+                    "position": 50
+                },
+                {
+                    "color": "#9b59b6",
+                    "position": 100
+                }
+            ]
+        },
+        "peachy": {
+            "name": "Peachy",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#ed4264",
+                    "position": 0
+                },
+                {
+                    "color": "#ffedbc",
+                    "position": 100
+                }
+            ]
+        },
+        "miami": {
+            "name": "Miami",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#396afc",
+                    "position": 0
+                },
+                {
+                    "color": "#2948ff",
+                    "position": 100
+                }
+            ]
+        },
+        "cosmic": {
+            "name": "Cosmic",
+            "type": "radial",
+            "rotation": 0,
+            "stops": [
+                {
+                    "color": "#8e2de2",
+                    "position": 0
+                },
+                {
+                    "color": "#4a00e0",
+                    "position": 100
+                }
+            ]
+        },
+        "rain": {
+            "name": "Rain",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#667db6",
+                    "position": 0
+                },
+                {
+                    "color": "#0082c8",
+                    "position": 50
+                },
+                {
+                    "color": "#0082c8",
+                    "position": 67
+                },
+                {
+                    "color": "#667db6",
+                    "position": 100
+                }
+            ]
+        },
+        "emerald": {
+            "name": "Emerald",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#348f50",
+                    "position": 0
+                },
+                {
+                    "color": "#56b4d3",
+                    "position": 100
+                }
+            ]
+        },
+        "midnight": {
+            "name": "Midnight",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#0f0c29",
+                    "position": 0
+                },
+                {
+                    "color": "#302b63",
+                    "position": 50
+                },
+                {
+                    "color": "#24243e",
+                    "position": 100
+                }
+            ]
+        },
+        "charcoal": {
+            "name": "Charcoal",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#232526",
+                    "position": 0
+                },
+                {
+                    "color": "#414345",
+                    "position": 100
+                }
+            ]
+        },
+        "deep_space": {
+            "name": "Deep Space",
+            "type": "radial",
+            "rotation": 0,
+            "stops": [
+                {
+                    "color": "#000428",
+                    "position": 0
+                },
+                {
+                    "color": "#004e92",
+                    "position": 100
+                }
+            ]
+        },
+        "bloody_mary": {
+            "name": "Bloody Mary",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#8E0E00",
+                    "position": 0
+                },
+                {
+                    "color": "#1F1C18",
+                    "position": 100
+                }
+            ]
+        },
+        "dark_metal": {
+            "name": "Dark Metal",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#4b4b4b",
+                    "position": 0
+                },
+                {
+                    "color": "#0f0f0f",
+                    "position": 100
+                }
+            ]
+        },
+        "cotton_cloud": {
+            "name": "Cotton Cloud",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#f5f7fa",
+                    "position": 0
+                },
+                {
+                    "color": "#c3cfe2",
+                    "position": 100
+                }
+            ]
+        },
+        "soft_linen": {
+            "name": "Soft Linen",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#e6dada",
+                    "position": 0
+                },
+                {
+                    "color": "#f5f7fa",
+                    "position": 100
+                }
+            ]
+        },
+        "frost": {
+            "name": "Frost",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#e6f0ff",
+                    "position": 0
+                },
+                {
+                    "color": "#d9e7ff",
+                    "position": 100
+                }
+            ]
+        },
+        "vanilla_cream": {
+            "name": "Vanilla Cream",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#f7f0d7",
+                    "position": 0
+                },
+                {
+                    "color": "#f5f7fa",
+                    "position": 100
+                }
+            ]
+        },
+        "pastel_dream": {
+            "name": "Pastel Dream",
+            "type": "linear",
+            "rotation": 120,
+            "stops": [
+                {
+                    "color": "#ffdde1",
+                    "position": 0
+                },
+                {
+                    "color": "#ee9ca7",
+                    "position": 33
+                },
+                {
+                    "color": "#a8edea",
+                    "position": 66
+                },
+                {
+                    "color": "#fed6e3",
+                    "position": 100
+                }
+            ]
+        },
+        "soft_mint": {
+            "name": "Soft Mint",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#d4fc79",
+                    "position": 0
+                },
+                {
+                    "color": "#96e6a1",
+                    "position": 100
+                }
+            ]
+        },
+        "baby_blue": {
+            "name": "Baby Blue",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#c2e9fb",
+                    "position": 0
+                },
+                {
+                    "color": "#a1c4fd",
+                    "position": 100
+                }
+            ]
+        },
+        "lavender_field": {
+            "name": "Lavender Field",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#d299c2",
+                    "position": 0
+                },
+                {
+                    "color": "#fef9d7",
+                    "position": 100
+                }
+            ]
+        },
+        "peach_parfait": {
+            "name": "Peach Parfait",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#ffd8cb",
+                    "position": 0
+                },
+                {
+                    "color": "#ffb8b8",
+                    "position": 100
+                }
+            ]
+        },
+        "neon_sunset": {
+            "name": "Neon Sunset",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#f857a6",
+                    "position": 0
+                },
+                {
+                    "color": "#ff5858",
+                    "position": 100
+                }
+            ]
+        },
+        "electric": {
+            "name": "Electric",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#00f5ff",
+                    "position": 0
+                },
+                {
+                    "color": "#00d4ff",
+                    "position": 100
+                }
+            ]
+        },
+        "lime_rush": {
+            "name": "Lime Rush",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#a8ff78",
+                    "position": 0
+                },
+                {
+                    "color": "#78ffd6",
+                    "position": 100
+                }
+            ]
+        },
+        "candy_apple": {
+            "name": "Candy Apple",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#ff0844",
+                    "position": 0
+                },
+                {
+                    "color": "#ffb199",
+                    "position": 100
+                }
+            ]
+        },
+        "spring": {
+            "name": "Spring",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#56ab2f",
+                    "position": 0
+                },
+                {
+                    "color": "#a8e063",
+                    "position": 100
+                }
+            ]
+        },
+        "citrus_blend": {
+            "name": "Citrus Blend",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#f09819",
+                    "position": 0
+                },
+                {
+                    "color": "#edde5d",
+                    "position": 100
+                }
+            ]
+        },
+        "fresh_ocean": {
+            "name": "Fresh Ocean",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#1d976c",
+                    "position": 0
+                },
+                {
+                    "color": "#93f9b9",
+                    "position": 100
+                }
+            ]
+        },
+        "minty_fresh": {
+            "name": "Minty Fresh",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#11998e",
+                    "position": 0
+                },
+                {
+                    "color": "#38ef7d",
+                    "position": 100
+                }
+            ]
+        },
+        "golden_hour": {
+            "name": "Golden Hour",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#fa709a",
+                    "position": 0
+                },
+                {
+                    "color": "#fee140",
+                    "position": 100
+                }
+            ]
+        },
+        "retro_wave": {
+            "name": "Retro Wave",
+            "type": "radial",
+            "rotation": 0,
+            "stops": [
+                {
+                    "color": "#ffd4bd",
+                    "position": 0
+                },
+                {
+                    "color": "#ffaf7b",
+                    "position": 100
+                }
+            ]
+        },
+        "coffee_mocha": {
+            "name": "Coffee Mocha",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#3c2c21",
+                    "position": 0
+                },
+                {
+                    "color": "#b78a6b",
+                    "position": 100
+                }
+            ]
+        },
+        "obsidian": {
+            "name": "Obsidian",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#1a1a1a",
+                    "position": 0
+                },
+                {
+                    "color": "#0f0f0f",
+                    "position": 100
+                }
+            ]
+        },
+        "deep_ocean": {
+            "name": "Deep Ocean",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#001f3f",
+                    "position": 0
+                },
+                {
+                    "color": "#003366",
+                    "position": 100
+                }
+            ]
+        },
+        "shadow": {
+            "name": "Shadow",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#1a1a2e",
+                    "position": 0
+                },
+                {
+                    "color": "#0f0f1a",
+                    "position": 100
+                }
+            ]
+        },
+        "void": {
+            "name": "Void",
+            "type": "radial",
+            "rotation": 0,
+            "stops": [
+                {
+                    "color": "#000000",
+                    "position": 0
+                },
+                {
+                    "color": "#1a1a1a",
+                    "position": 100
+                }
+            ]
+        },
+        "porcelain": {
+            "name": "Porcelain",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#ffffff",
+                    "position": 0
+                },
+                {
+                    "color": "#f8f8f8",
+                    "position": 100
+                }
+            ]
+        },
+        "whisper": {
+            "name": "Whisper",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#fefefe",
+                    "position": 0
+                },
+                {
+                    "color": "#f0f4f8",
+                    "position": 100
+                }
+            ]
+        },
+        "daylight": {
+            "name": "Daylight",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#f8f9fa",
+                    "position": 0
+                },
+                {
+                    "color": "#e3f2fd",
+                    "position": 100
+                }
+            ]
+        },
+        "strawberry_milk": {
+            "name": "Strawberry Milk",
+            "type": "linear",
+            "rotation": 120,
+            "stops": [
+                {
+                    "color": "#ffe4e1",
+                    "position": 0
+                },
+                {
+                    "color": "#ffc0cb",
+                    "position": 100
+                }
+            ]
+        },
+        "powder_blue": {
+            "name": "Powder Blue",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#b0e0e6",
+                    "position": 0
+                },
+                {
+                    "color": "#87cefa",
+                    "position": 100
+                }
+            ]
+        },
+        "lemon_cream": {
+            "name": "Lemon Cream",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#fffacd",
+                    "position": 0
+                },
+                {
+                    "color": "#fff8dc",
+                    "position": 100
+                }
+            ]
+        },
+        "mint_milkshake": {
+            "name": "Mint Milkshake",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#f0fff0",
+                    "position": 0
+                },
+                {
+                    "color": "#e0ffe0",
+                    "position": 100
+                }
+            ]
+        },
+        "hot_pink": {
+            "name": "Hot Pink",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#ff1493",
+                    "position": 0
+                },
+                {
+                    "color": "#ff69b4",
+                    "position": 100
+                }
+            ]
+        },
+        "electric_violet": {
+            "name": "Electric Violet",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#8a2be2",
+                    "position": 0
+                },
+                {
+                    "color": "#9400d3",
+                    "position": 100
+                }
+            ]
+        },
+        "acid_green": {
+            "name": "Acid Green",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#bfff00",
+                    "position": 0
+                },
+                {
+                    "color": "#7fff00",
+                    "position": 100
+                }
+            ]
+        },
+        "solar_flare": {
+            "name": "Solar Flare",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#ff4500",
+                    "position": 0
+                },
+                {
+                    "color": "#ffd700",
+                    "position": 100
+                }
+            ]
+        },
+        "tropical": {
+            "name": "Tropical",
+            "type": "linear",
+            "rotation": 45,
+            "stops": [
+                {
+                    "color": "#00ff7f",
+                    "position": 0
+                },
+                {
+                    "color": "#ffa500",
+                    "position": 100
+                }
+            ]
+        },
+        "apple_green": {
+            "name": "Apple Green",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#7cfc00",
+                    "position": 0
+                },
+                {
+                    "color": "#32cd32",
+                    "position": 100
+                }
+            ]
+        },
+        "sea_breeze": {
+            "name": "Sea Breeze",
+            "type": "linear",
+            "rotation": 180,
+            "stops": [
+                {
+                    "color": "#20b2aa",
+                    "position": 0
+                },
+                {
+                    "color": "#48d1cc",
+                    "position": 100
+                }
+            ]
+        },
+        "morning_dew": {
+            "name": "Morning Dew",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#e0f7fa",
+                    "position": 0
+                },
+                {
+                    "color": "#b2ebf2",
+                    "position": 100
+                }
+            ]
+        },
+        "sunrise": {
+            "name": "Sunrise",
+            "type": "linear",
+            "rotation": 135,
+            "stops": [
+                {
+                    "color": "#ff7f50",
+                    "position": 0
+                },
+                {
+                    "color": "#ffa07a",
+                    "position": 50
+                },
+                {
+                    "color": "#ffd700",
+                    "position": 100
+                }
+            ]
+        },
+        "crystal": {
+            "name": "Crystal",
+            "type": "radial",
+            "rotation": 0,
+            "stops": [
+                {
+                    "color": "#e0ffff",
+                    "position": 0
+                },
+                {
+                    "color": "#f0f8ff",
+                    "position": 100
+                }
+            ]
+        },
+        "galaxy": {
+            "name": "Galaxy",
+            "type": "linear",
+            "rotation": 0,
+            "stops": [
+                {
+                    "color": "#4b0082",
+                    "position": 0
+                },
+                {
+                    "color": "#000033",
+                    "position": 100
+                }
+            ]
+        },
+        "blood_orange": {
+            "name": "Blood Orange",
+            "type": "linear",
+            "rotation": 90,
+            "stops": [
+                {
+                    "color": "#cc4125",
+                    "position": 0
+                },
+                {
+                    "color": "#ff6347",
+                    "position": 100
+                }
+            ]
+        },
+        "ice_cream": {
+            "name": "Ice Cream",
+            "type": "linear",
+            "rotation": 120,
+            "stops": [
+                {
+                    "color": "#ffe4e1",
+                    "position": 0
+                },
+                {
+                    "color": "#f0e68c",
+                    "position": 100
+                }
+            ]
+        }
+    }
+}

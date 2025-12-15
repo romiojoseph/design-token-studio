@@ -1,0 +1,1060 @@
+{
+    "fonts": [
+        {
+            "name": "Abril Fatface",
+            "value": "Abril Fatface",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Agdasima",
+            "value": "Agdasima",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Alegreya",
+            "value": "Alegreya",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Alfa Slab One",
+            "value": "Alfa Slab One",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Allura",
+            "value": "Allura",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Amatic SC",
+            "value": "Amatic SC",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Anek Devanagari",
+            "value": "Anek Devanagari",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Anek Latin",
+            "value": "Anek Latin",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Anonymous Pro",
+            "value": "Anonymous Pro",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Anton",
+            "value": "Anton",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Archivo",
+            "value": "Archivo",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Archivo Black",
+            "value": "Archivo Black",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Arvo",
+            "value": "Arvo",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Audiowide",
+            "value": "Audiowide",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Azeret Mono",
+            "value": "Azeret Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Bangers",
+            "value": "Bangers",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Barlow",
+            "value": "Barlow",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Be Vietnam Pro",
+            "value": "Be Vietnam Pro",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Bebas Neue",
+            "value": "Bebas Neue",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Bitter",
+            "value": "Bitter",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Black Ops One",
+            "value": "Black Ops One",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Bricolage Grotesque",
+            "value": "Bricolage Grotesque",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Bruno Ace",
+            "value": "Bruno Ace",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Bruno Ace SC",
+            "value": "Bruno Ace SC",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Cabinet Grotesk",
+            "value": "Cabinet Grotesk",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Cardo",
+            "value": "Cardo",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Cascadia Code",
+            "value": "Cascadia Code",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Caudex",
+            "value": "Caudex",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Caveat",
+            "value": "Caveat",
+            "category": "handwriting",
+            "variable": true
+        },
+        {
+            "name": "Chillax",
+            "value": "Chillax",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Chivo Mono",
+            "value": "Chivo Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Cinzel",
+            "value": "Cinzel",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Clash Display",
+            "value": "Clash Display",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Clash Grotesk",
+            "value": "Clash Grotesk",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Comfortaa",
+            "value": "Comfortaa",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Comic Neue",
+            "value": "Comic Neue",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Commit Mono",
+            "value": "Commit Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Cookie",
+            "value": "Cookie",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Cormorant",
+            "value": "Cormorant",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Courgette",
+            "value": "Courgette",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Courier Prime",
+            "value": "Courier Prime",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Crimson Text",
+            "value": "Crimson Text",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Cutive Mono",
+            "value": "Cutive Mono",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Dancing Script",
+            "value": "Dancing Script",
+            "category": "handwriting",
+            "variable": true
+        },
+        {
+            "name": "Darker Grotesque",
+            "value": "Darker Grotesque",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "DM Sans",
+            "value": "DM Sans",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "DM Serif Display",
+            "value": "DM Serif Display",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "DM Serif Text",
+            "value": "DM Serif Text",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "DotGothic16",
+            "value": "DotGothic16",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "EB Garamond",
+            "value": "EB Garamond",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Exo",
+            "value": "Exo",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Familjen Grotesk",
+            "value": "Familjen Grotesk",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Figtree",
+            "value": "Figtree",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Fira Code",
+            "value": "Fira Code",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Fira Sans",
+            "value": "Fira Sans",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Foldit",
+            "value": "Foldit",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Fragment Mono",
+            "value": "Fragment Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Fraunces",
+            "value": "Fraunces",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Fredoka",
+            "value": "Fredoka",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Gabarito",
+            "value": "Gabarito",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Geist",
+            "value": "Geist",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Geist Mono",
+            "value": "Geist Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "General Sans",
+            "value": "General Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Gloock",
+            "value": "Gloock",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Goldman",
+            "value": "Goldman",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Hanken Grotesk",
+            "value": "Hanken Grotesk",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Hind",
+            "value": "Hind",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Honk",
+            "value": "Honk",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Hubot Sans",
+            "value": "Hubot Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "IBM Plex Mono",
+            "value": "IBM Plex Mono",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "IBM Plex Sans",
+            "value": "IBM Plex Sans",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Inconsolata",
+            "value": "Inconsolata",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Indie Flower",
+            "value": "Indie Flower",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Instrument Sans",
+            "value": "Instrument Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Instrument Serif",
+            "value": "Instrument Serif",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Inter",
+            "value": "Inter",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Italiana",
+            "value": "Italiana",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "JetBrains Mono",
+            "value": "JetBrains Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Josefin Sans",
+            "value": "Josefin Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Kalam",
+            "value": "Kalam",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Kanit",
+            "value": "Kanit",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Karla",
+            "value": "Karla",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Lato",
+            "value": "Lato",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "League Spartan",
+            "value": "League Spartan",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Libre Baskerville",
+            "value": "Libre Baskerville",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Literata",
+            "value": "Literata",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Lobster",
+            "value": "Lobster",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Lora",
+            "value": "Lora",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Madimi One",
+            "value": "Madimi One",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Major Mono Display",
+            "value": "Major Mono Display",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Manrope",
+            "value": "Manrope",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Martian Mono",
+            "value": "Martian Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Merriweather",
+            "value": "Merriweather",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Mona Sans",
+            "value": "Mona Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Monaspace",
+            "value": "Monaspace",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Montserrat",
+            "value": "Montserrat",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Mulish",
+            "value": "Mulish",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Newsreader",
+            "value": "Newsreader",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Noto Sans",
+            "value": "Noto Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Noto Serif",
+            "value": "Noto Serif",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Nunito",
+            "value": "Nunito",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Old Standard TT",
+            "value": "Old Standard TT",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Onest",
+            "value": "Onest",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Open Sans",
+            "value": "Open Sans",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Orbitron",
+            "value": "Orbitron",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Oswald",
+            "value": "Oswald",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Outfit",
+            "value": "Outfit",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Overpass Mono",
+            "value": "Overpass Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Oxygen",
+            "value": "Oxygen",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Oxygen Mono",
+            "value": "Oxygen Mono",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Pacifico",
+            "value": "Pacifico",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Passion One",
+            "value": "Passion One",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Patrick Hand",
+            "value": "Patrick Hand",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Permanent Marker",
+            "value": "Permanent Marker",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Pixelify Sans",
+            "value": "Pixelify Sans",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Playfair Display",
+            "value": "Playfair Display",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Playfair Display SC",
+            "value": "Playfair Display SC",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Playwrite",
+            "value": "Playwrite",
+            "category": "handwriting",
+            "variable": true
+        },
+        {
+            "name": "Plus Jakarta Sans",
+            "value": "Plus Jakarta Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Poppins",
+            "value": "Poppins",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Protest Guerrilla",
+            "value": "Protest Guerrilla",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Protest Revolution",
+            "value": "Protest Revolution",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Protest Riot",
+            "value": "Protest Riot",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "PT Sans",
+            "value": "PT Sans",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "PT Serif",
+            "value": "PT Serif",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Public Sans",
+            "value": "Public Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Quantico",
+            "value": "Quantico",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Quicksand",
+            "value": "Quicksand",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Rajdhani",
+            "value": "Rajdhani",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Raleway",
+            "value": "Raleway",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Red Hat Display",
+            "value": "Red Hat Display",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Red Hat Mono",
+            "value": "Red Hat Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Reddit Mono",
+            "value": "Reddit Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Reddit Sans",
+            "value": "Reddit Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Righteous",
+            "value": "Righteous",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Roboto",
+            "value": "Roboto",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Roboto Mono",
+            "value": "Roboto Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Roboto Slab",
+            "value": "Roboto Slab",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Rowdies",
+            "value": "Rowdies",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Rubik",
+            "value": "Rubik",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Rubik Mono One",
+            "value": "Rubik Mono One",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Russo One",
+            "value": "Russo One",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Saira Condensed",
+            "value": "Saira Condensed",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Satisfy",
+            "value": "Satisfy",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Satoshi",
+            "value": "Satoshi",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Schibsted Grotesk",
+            "value": "Schibsted Grotesk",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Sedgwick Ave Display",
+            "value": "Sedgwick Ave Display",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Sentient",
+            "value": "Sentient",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "Shadows Into Light",
+            "value": "Shadows Into Light",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Share Tech Mono",
+            "value": "Share Tech Mono",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Signika Negative",
+            "value": "Signika Negative",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Silkscreen",
+            "value": "Silkscreen",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Sometype Mono",
+            "value": "Sometype Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Sora",
+            "value": "Sora",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Source Code Pro",
+            "value": "Source Code Pro",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Space Grotesk",
+            "value": "Space Grotesk",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Space Mono",
+            "value": "Space Mono",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Spectral",
+            "value": "Spectral",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Spline Sans",
+            "value": "Spline Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Spline Sans Mono",
+            "value": "Spline Sans Mono",
+            "category": "monospace",
+            "variable": true
+        },
+        {
+            "name": "Staatliches",
+            "value": "Staatliches",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Syne",
+            "value": "Syne",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Tangerine",
+            "value": "Tangerine",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Teko",
+            "value": "Teko",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Tiny5",
+            "value": "Tiny5",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Ubuntu",
+            "value": "Ubuntu",
+            "category": "sans-serif",
+            "variable": false
+        },
+        {
+            "name": "Ubuntu Mono",
+            "value": "Ubuntu Mono",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Unbounded",
+            "value": "Unbounded",
+            "category": "display",
+            "variable": true
+        },
+        {
+            "name": "Vollkorn",
+            "value": "Vollkorn",
+            "category": "serif",
+            "variable": true
+        },
+        {
+            "name": "VT323",
+            "value": "VT323",
+            "category": "monospace",
+            "variable": false
+        },
+        {
+            "name": "Whisper",
+            "value": "Whisper",
+            "category": "handwriting",
+            "variable": false
+        },
+        {
+            "name": "Work Sans",
+            "value": "Work Sans",
+            "category": "sans-serif",
+            "variable": true
+        },
+        {
+            "name": "Yatra One",
+            "value": "Yatra One",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Yeseva One",
+            "value": "Yeseva One",
+            "category": "display",
+            "variable": false
+        },
+        {
+            "name": "Young Serif",
+            "value": "Young Serif",
+            "category": "serif",
+            "variable": false
+        },
+        {
+            "name": "Zilla Slab",
+            "value": "Zilla Slab",
+            "category": "serif",
+            "variable": false
+        }
+    ]
+}

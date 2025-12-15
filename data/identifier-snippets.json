@@ -1,0 +1,342 @@
+[
+    {
+        "id": "jsx-css-modules",
+        "name": "JSX CSS Modules (Generic)",
+        "template": "<div className={styles.{{identifier}}}></div>"
+    },
+    {
+        "id": "html-class",
+        "name": "HTML Class (Generic)",
+        "template": "<div class=\"{{identifier}}\"></div>"
+    },
+    {
+        "id": "css-class",
+        "name": "CSS Class",
+        "template": ".{{identifier}} {}"
+    },
+    {
+        "id": "html-id",
+        "name": "HTML ID",
+        "template": "<div id=\"{{identifier}}\"></div>"
+    },
+    {
+        "id": "data-attr",
+        "name": "Data Attribute",
+        "template": "<div data-{{identifier}}=\"\"></div>"
+    },
+    {
+        "id": "css-id",
+        "name": "CSS ID",
+        "template": "#{{identifier}} {}"
+    },
+    {
+        "id": "css-media-query",
+        "name": "CSS Media Query",
+        "template": "@media ({{condition}}) {}"
+    },
+    {
+        "id": "js-const",
+        "name": "JS Const Arrow Function",
+        "template": "const {{identifier}} = () => {};"
+    },
+    {
+        "id": "js-function",
+        "name": "JS Function",
+        "template": "function {{identifier}}() {}"
+    },
+    {
+        "id": "js-async",
+        "name": "JS Async Function",
+        "template": "async function {{identifier}}() {}"
+    },
+    {
+        "id": "js-import",
+        "name": "JS Import",
+        "template": "import {{identifier}} from '{{module}}';"
+    },
+    {
+        "id": "js-export-default",
+        "name": "JS Export Default",
+        "template": "export default {{identifier}};"
+    },
+    {
+        "id": "js-export-named",
+        "name": "JS Export Named",
+        "template": "export { {{identifier}} };"
+    },
+    {
+        "id": "js-try-catch",
+        "name": "JS Try-Catch",
+        "template": "try {\n  {{code}}\n} catch (error) {\n  console.error(error);\n}"
+    },
+    {
+        "id": "js-promise",
+        "name": "JS Promise",
+        "template": "new Promise((resolve, reject) => {\n  {{code}}\n});"
+    },
+    {
+        "id": "js-fetch",
+        "name": "JS Fetch API",
+        "template": "fetch('{{url}}').then(res => res.json()).then(data => {});"
+    },
+    {
+        "id": "react-component",
+        "name": "React Component",
+        "template": "const {{identifier}} = () => {\n  return ();\n};"
+    },
+    {
+        "id": "react-component-props",
+        "name": "React Component with Props",
+        "template": "const {{identifier}} = ({ {{props}} }) => {\n  return ();\n};"
+    },
+    {
+        "id": "react-hook-state",
+        "name": "React useState",
+        "template": "const [{{identifier}}, set{{identifier}}] = useState();"
+    },
+    {
+        "id": "react-hook-effect",
+        "name": "React useEffect",
+        "template": "useEffect(() => {\n  {{code}}\n}, [{{dependencies}}]);"
+    },
+    {
+        "id": "react-hook-ref",
+        "name": "React useRef",
+        "template": "const {{identifier}}Ref = useRef(null);"
+    },
+    {
+        "id": "react-context",
+        "name": "React Context",
+        "template": "const {{identifier}}Context = createContext();"
+    },
+    {
+        "id": "jsx-classname",
+        "name": "JSX className (Generic)",
+        "template": "<div className=\"{{identifier}}\"></div>"
+    },
+    {
+        "id": "jsx-onclick",
+        "name": "JSX onClick Handler",
+        "template": "<button onClick={{{identifier}}}>{{text}}</button>"
+    },
+    {
+        "id": "jsx-onchange",
+        "name": "JSX onChange Handler",
+        "template": "<input onChange={{{identifier}}} />"
+    },
+    {
+        "id": "jsx-conditional-render",
+        "name": "JSX Conditional Render",
+        "template": "{{{condition}} && <div>{{content}}</div>}"
+    },
+    {
+        "id": "html-main",
+        "name": "HTML <main>",
+        "template": "<main class=\"{{identifier}}\"></main>"
+    },
+    {
+        "id": "jsx-main",
+        "name": "JSX <main>",
+        "template": "<main className={styles.{{identifier}}}></main>"
+    },
+    {
+        "id": "html-section",
+        "name": "HTML <section>",
+        "template": "<section class=\"{{identifier}}\"></section>"
+    },
+    {
+        "id": "jsx-section",
+        "name": "JSX <section>",
+        "template": "<section className={styles.{{identifier}}}></section>"
+    },
+    {
+        "id": "html-header",
+        "name": "HTML <header>",
+        "template": "<header class=\"{{identifier}}\"></header>"
+    },
+    {
+        "id": "jsx-header",
+        "name": "JSX <header>",
+        "template": "<header className={styles.{{identifier}}}></header>"
+    },
+    {
+        "id": "html-footer",
+        "name": "HTML <footer>",
+        "template": "<footer class=\"{{identifier}}\"></footer>"
+    },
+    {
+        "id": "jsx-footer",
+        "name": "JSX <footer>",
+        "template": "<footer className={styles.{{identifier}}}></footer >"
+    },
+    {
+        "id": "html-nav",
+        "name": "HTML <nav>",
+        "template": "<nav class=\"{{identifier}}\"></nav>"
+    },
+    {
+        "id": "jsx-nav",
+        "name": "JSX <nav>",
+        "template": "<nav className={styles.{{identifier}}}></nav>"
+    },
+    {
+        "id": "html-aside",
+        "name": "HTML <aside>",
+        "template": "<aside class=\"{{identifier}}\"></aside>"
+    },
+    {
+        "id": "jsx-aside",
+        "name": "JSX <aside>",
+        "template": "<aside className={styles.{{identifier}}}></aside>"
+    },
+    {
+        "id": "html-article",
+        "name": "HTML <article>",
+        "template": "<article class=\"{{identifier}}\"></article>"
+    },
+    {
+        "id": "jsx-article",
+        "name": "JSX <article>",
+        "template": "<article className={styles.{{identifier}}}></article>"
+    },
+    {
+        "id": "html-div",
+        "name": "HTML <div>",
+        "template": "<div class=\"{{identifier}}\"></div>"
+    },
+    {
+        "id": "jsx-div",
+        "name": "JSX <div>",
+        "template": "<div className={styles.{{identifier}}}></div>"
+    },
+    {
+        "id": "html-span",
+        "name": "HTML <span>",
+        "template": "<span class=\"{{identifier}}\"></span>"
+    },
+    {
+        "id": "jsx-span",
+        "name": "JSX <span>",
+        "template": "<span className={styles.{{identifier}}}></span>"
+    },
+    {
+        "id": "html-p",
+        "name": "HTML <p>",
+        "template": "<p class=\"{{identifier}}\"></p>"
+    },
+    {
+        "id": "jsx-p",
+        "name": "JSX <p>",
+        "template": "<p className={styles.{{identifier}}}></p>"
+    },
+    {
+        "id": "html-button",
+        "name": "HTML <button>",
+        "template": "<button class=\"{{identifier}}\"></button>"
+    },
+    {
+        "id": "jsx-button",
+        "name": "JSX <button>",
+        "template": "<button className={styles.{{identifier}}}></button>"
+    },
+    {
+        "id": "html-input",
+        "name": "HTML <input>",
+        "template": "<input class=\"{{identifier}}\" type=\"text\" />"
+    },
+    {
+        "id": "jsx-input",
+        "name": "JSX <input>",
+        "template": "<input className={styles.{{identifier}}} type=\"text\" />"
+    },
+    {
+        "id": "html-label",
+        "name": "HTML <label>",
+        "template": "<label class=\"{{identifier}}\"></label>"
+    },
+    {
+        "id": "jsx-label",
+        "name": "JSX <label>",
+        "template": "<label className={styles.{{identifier}}}></label>"
+    },
+    {
+        "id": "html-form",
+        "name": "HTML <form>",
+        "template": "<form class=\"{{identifier}}\"></form>"
+    },
+    {
+        "id": "jsx-form",
+        "name": "JSX <form>",
+        "template": "<form className={styles.{{identifier}}}></form>"
+    },
+    {
+        "id": "html-img",
+        "name": "HTML <img>",
+        "template": "<img class=\"{{identifier}}\" src=\"\" alt=\"\" />"
+    },
+    {
+        "id": "jsx-img",
+        "name": "JSX <img>",
+        "template": "<img className={styles.{{identifier}}} src=\"\" alt=\"\" />"
+    },
+    {
+        "id": "html-ul",
+        "name": "HTML <ul>",
+        "template": "<ul class=\"{{identifier}}\"></ul>"
+    },
+    {
+        "id": "jsx-ul",
+        "name": "JSX <ul>",
+        "template": "<ul className={styles.{{identifier}}}></ul>"
+    },
+    {
+        "id": "html-li",
+        "name": "HTML <li>",
+        "template": "<li class=\"{{identifier}}\"></li>"
+    },
+    {
+        "id": "jsx-li",
+        "name": "JSX <li>",
+        "template": "<li className={styles.{{identifier}}}></li>"
+    },
+    {
+        "id": "html-a",
+        "name": "HTML <a>",
+        "template": "<a class=\"{{identifier}}\" href=\"#\"></a>"
+    },
+    {
+        "id": "jsx-a",
+        "name": "JSX <a>",
+        "template": "<a className={styles.{{identifier}}} href=\"#\"></a>"
+    },
+    {
+        "id": "html-h1",
+        "name": "HTML <h1>",
+        "template": "<h1 class=\"{{identifier}}\"></h1>"
+    },
+    {
+        "id": "jsx-h1",
+        "name": "JSX <h1>",
+        "template": "<h1 className={styles.{{identifier}}}></h1>"
+    },
+    {
+        "id": "html-h2",
+        "name": "HTML <h2>",
+        "template": "<h2 class=\"{{identifier}}\"></h2>"
+    },
+    {
+        "id": "jsx-h2",
+        "name": "JSX <h2>",
+        "template": "<h2 className={styles.{{identifier}}}></h2>"
+    },
+    {
+        "id": "html-h3",
+        "name": "HTML <h3>",
+        "template": "<h3 class=\"{{identifier}}\"></h3>"
+    },
+    {
+        "id": "jsx-h3",
+        "name": "JSX <h3>",
+        "template": "<h3 className={styles.{{identifier}}}></h3>"
+    }
+]
