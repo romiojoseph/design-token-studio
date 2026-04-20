@@ -1,5 +1,4 @@
-:HL["/design-token-studio/_next/static/chunks/cf79df3a2c81909c.css","style"]
-:HL["/design-token-studio/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/design-token-studio/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/design-token-studio/_next/static/chunks/09ae50b0f5838148.css","style"]
-0:{"buildId":"FMQ37Wv-zlJHYsVxYj9tf","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"about","paramType":null,"paramKey":"about","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/design-token-studio/_next/static/chunks/0l49ttiud.g8v.css","style"]
+:HL["/design-token-studio/_next/static/chunks/0c2up2v1qsk60.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"about","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"v-F79okkedG3X42nuZAxS"}
