@@ -86,7 +86,7 @@
 }
 
 html {
-    font-size: var(--font-size-body);
+    font-size: var(--font-body);
     line-height: var(--lh-default);
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -95,7 +95,7 @@ html {
 
 body {
     font-family: var(--font-sans);
-    font-size: var(--font-size-body);
+    font-size: var(--font-body);
     line-height: var(--lh-default);
     color: #000;
     background-color: #fff;
@@ -174,12 +174,12 @@ select {
 
 code {
     font-family: var(--font-mono);
-    font-size: var(--font-size-body);
+    font-size: var(--font-body);
 }
 
 pre {
     font-family: var(--font-mono);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-body);
     overflow-x: auto;
     overflow-y: auto;
     margin: var(--space-4) 0;
